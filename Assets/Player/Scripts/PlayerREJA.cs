@@ -1,16 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerREJA: MonoBehaviour
 {
+    [Header("Movimiento")] 
     CharacterController chController;
     [SerializeField] float moveSpeed;
-    [SerializeField] int hp;
     Vector3 moveDirection;
     float h, v;
     Vector3 movementY;
     [SerializeField] float gravityScale;
+    [Header("Puertas")]
+    [SerializeField] LayerMask whatIsDoor;[SerializeField] float radiusDoor;[SerializeField] GameObject doorPoint;
+
     void Start()
     {
         chController = GetComponent<CharacterController>();
@@ -27,6 +31,7 @@ public class PlayerREJA: MonoBehaviour
         moveDirection = Quaternion.Euler(0, -45, 0) * new Vector3(h, 0, v);
         chController.Move(moveDirection.normalized * moveSpeed * Time.deltaTime);
         Gravity();
+        Door();
 
     }
 
@@ -34,6 +39,16 @@ public class PlayerREJA: MonoBehaviour
     {
         movementY.y += gravityScale * Time.deltaTime;
         chController.Move(movementY * Time.deltaTime);
+    }
+
+    void Door()
+    {
+        Collider[] collDoor = Physics.OverlapSphere(doorPoint.transform.position, radiusDoor, whatIsDoor);
+        if (collDoor != null)
+            {
+             
+            }
+        
     }
 
 }
