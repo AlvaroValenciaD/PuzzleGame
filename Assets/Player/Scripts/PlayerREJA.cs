@@ -5,13 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class PlayerREJA: MonoBehaviour
 {
+    [SerializeField] GameManagerSO gM;
     [Header("Movimiento")] 
     CharacterController chController;
-    [SerializeField] float moveSpeed;
-    Vector3 moveDirection;
+    [SerializeField] float moveSpeed;[SerializeField] float gravityScale;
+    Vector3 moveDirection; Vector3 movementY;
     float h, v;
-    Vector3 movementY;
-    [SerializeField] float gravityScale;
     [Header("Puertas")]
     [SerializeField] LayerMask whatIsDoor;[SerializeField] float radiusDoor;[SerializeField] GameObject doorPoint;
 
@@ -48,6 +47,11 @@ public class PlayerREJA: MonoBehaviour
         {
             SceneManager.LoadScene(collDoor[0].GetComponent<Door>().GetNewLvlIndex());
         }
+
+    }
+
+    void SavePosition()
+    {
 
     }
 
