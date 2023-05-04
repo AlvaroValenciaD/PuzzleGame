@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.28502697, g: 0.37139347, b: 0.49601266, a: 1}
+  m_IndirectSpecularColor: {r: 0.28502592, g: 0.37139234, b: 0.49601153, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -642,9 +642,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da3b11ce4e90fb4098987d6d7fddd88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
-  hp: 10
+  moveSpeed: 15
   gravityScale: -9.8
+  whatIsDoor:
+    serializedVersion: 2
+    m_Bits: 64
+  radiusDoor: 1.1
+  doorPoint: {fileID: 493580956}
 --- !u!54 &493580959
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -718,7 +722,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 493580956}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.2, y: 1.8, z: 0}
+  m_LocalPosition: {x: 27.43, y: 1.8, z: 0}
   m_LocalScale: {x: 1.8, y: 1.8, z: 1.8}
   m_Children: []
   m_Father: {fileID: 0}
@@ -819,6 +823,7 @@ GameObject:
   - component: {fileID: 664886064}
   - component: {fileID: 664886067}
   - component: {fileID: 664886066}
+  - component: {fileID: 664886068}
   - component: {fileID: 664886065}
   m_Layer: 6
   m_Name: Door_Hall
@@ -903,6 +908,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664886063}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &664886068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664886063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0d9ac27d31de004ca3a58b12d32a0fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorIndex: 1
 --- !u!1 &1093921429
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,7 +1012,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263540118}
   m_LocalRotation: {x: 0.23911765, y: -0.3696438, z: 0.09904577, w: 0.89239913}
-  m_LocalPosition: {x: 182.82195, y: 128.3725, z: -154.51155}
+  m_LocalPosition: {x: 182.05194, y: 128.3725, z: -154.51155}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 187265722}
@@ -1188,7 +1206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
   m_LocalRotation: {x: 0.23911765, y: -0.3696438, z: 0.09904577, w: 0.89239913}
-  m_LocalPosition: {x: 182.82195, y: 128.3725, z: -154.51155}
+  m_LocalPosition: {x: 182.05194, y: 128.3725, z: -154.51155}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2082001854}

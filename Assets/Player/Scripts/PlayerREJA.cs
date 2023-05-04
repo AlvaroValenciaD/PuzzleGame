@@ -44,11 +44,16 @@ public class PlayerREJA: MonoBehaviour
     void Door()
     {
         Collider[] collDoor = Physics.OverlapSphere(doorPoint.transform.position, radiusDoor, whatIsDoor);
-        if (collDoor != null)
-            {
-             
-            }
-        
+        if (collDoor.Length > 0)
+        {
+            SceneManager.LoadScene(collDoor[0].GetComponent<Door>().GetNewLvlIndex());
+        }
+
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawSphere(doorPoint.transform.position, radiusDoor);
     }
 
 }
