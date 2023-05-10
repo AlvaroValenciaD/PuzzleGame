@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Escena3--Comedor/Comedor.unity
     guid: 25c99a712baded549a03712809fe2dd3
+  - enabled: 1
+    path: Assets/Scenes/Escena6--Pasillo/Pasillo.unity
+    guid: 5bb47b473540e5f4797c08c82e89df20
+  - enabled: 1
+    path: Assets/Scenes/Escena7--HabitacionHija/HabitacionHija.unity
+    guid: 0974f86ec02901145bfbfb64d2e2e9b7
   m_configObjects: {}

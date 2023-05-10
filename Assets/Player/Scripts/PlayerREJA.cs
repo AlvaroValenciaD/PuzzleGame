@@ -14,10 +14,12 @@ public class PlayerREJA: MonoBehaviour
     [Header("Puertas")]
     [SerializeField] LayerMask whatIsDoor;[SerializeField] float radiusDoor;[SerializeField] GameObject doorPoint;
 
+
     void Start()
     {
         chController = GetComponent<CharacterController>();
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
+        //transform.position = gM.CargarPosicionOrigen();
     }
 
 
@@ -30,7 +32,6 @@ public class PlayerREJA: MonoBehaviour
         moveDirection = Quaternion.Euler(0, -45, 0) * new Vector3(h, 0, v);
         chController.Move(moveDirection.normalized * moveSpeed * Time.deltaTime);
         Gravity();
-        Door();
 
     }
 
@@ -40,21 +41,20 @@ public class PlayerREJA: MonoBehaviour
         chController.Move(movementY * Time.deltaTime);
     }
 
-    void Door()
-    {
-        Collider[] collDoor = Physics.OverlapSphere(doorPoint.transform.position, radiusDoor, whatIsDoor);
-        if (collDoor.Length > 0)
-        {
-            SceneManager.LoadScene(collDoor[0].GetComponent<Door>().GetNewLvlIndex());
-        }
-
-    }
 
     void SavePosition()
     {
 
     }
-
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Door"))
+        {
+            Door door = other.GetComponent<Door>();
+            //gM.GuardarPosicionOrigen(door.GetPuntoSpawn());
+            SceneManager.LoadScene(door.GetNewLvlIndex());
+        }
+    }
     private void OnDrawGizmos()
     {
         Gizmos.DrawSphere(doorPoint.transform.position, radiusDoor);
