@@ -225,6 +225,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1269568717}
     m_Modifications:
+    - target: {fileID: -1642250039354880624, guid: e9df3372a0321994dbf923394f88b9d1, type: 3}
+      propertyPath: doorIndex
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -1642250039354880624, guid: e9df3372a0321994dbf923394f88b9d1, type: 3}
+      propertyPath: puntoOrigen
+      value: 
+      objectReference: {fileID: 646628280}
     - target: {fileID: 6329187542430785784, guid: e9df3372a0321994dbf923394f88b9d1, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -271,7 +279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6329187542430785787, guid: e9df3372a0321994dbf923394f88b9d1, type: 3}
       propertyPath: m_Name
-      value: Door_
+      value: Door_Pasillo
       objectReference: {fileID: 0}
     - target: {fileID: 8693148045638481780, guid: e9df3372a0321994dbf923394f88b9d1, type: 3}
       propertyPath: doorIndex
@@ -282,6 +290,11 @@ PrefabInstance:
 --- !u!4 &646628279 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6329187542430785784, guid: e9df3372a0321994dbf923394f88b9d1, type: 3}
+  m_PrefabInstance: {fileID: 646628278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &646628280 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1255676207253072743, guid: e9df3372a0321994dbf923394f88b9d1, type: 3}
   m_PrefabInstance: {fileID: 646628278}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &795973463
@@ -390,7 +403,7 @@ GameObject:
   - component: {fileID: 796796341}
   - component: {fileID: 796796340}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Biombo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -469,8 +482,8 @@ Transform:
   m_LocalPosition: {x: 12, y: 3, z: 10.4}
   m_LocalScale: {x: 15, y: 6, z: 0.5}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1269568717}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -10.151, z: 0}
 --- !u!1 &863627932
 GameObject:
@@ -1153,6 +1166,9 @@ Transform:
   - {fileID: 1400509262}
   - {fileID: 646628279}
   - {fileID: 975206734}
+  - {fileID: 1998217385}
+  - {fileID: 1681600534}
+  - {fileID: 796796343}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1331,7 +1347,7 @@ GameObject:
   - component: {fileID: 1681600532}
   - component: {fileID: 1681600531}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Mueble
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1406,12 +1422,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681600530}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -11.5, y: 2, z: 18}
   m_LocalScale: {x: 9, y: 4, z: 4}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1269568717}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1771416616
 GameObject:
@@ -1521,7 +1537,7 @@ GameObject:
   - component: {fileID: 1998217383}
   - component: {fileID: 1998217382}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Cama
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1596,12 +1612,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1998217381}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.999999, y: 3.5, z: -3.3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -15, y: 3.5, z: -3.3}
   m_LocalScale: {x: 10, y: 7, z: 8}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1269568717}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2033498461
 GameObject:

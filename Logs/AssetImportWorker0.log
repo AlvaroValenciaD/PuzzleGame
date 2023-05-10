@@ -2322,3 +2322,164 @@ System memory in use after: 120.9 MB.
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3527.
 Total: 3.322600 ms (FindLiveObjects: 0.520700 ms CreateObjectMapping: 0.176500 ms MarkObjects: 2.606700 ms  DeleteObjects: 0.017600 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 763.483243 seconds.
+  path: Assets/Scenes/Escena2--Despacho/Despacho.unity
+  artifactKey: Guid(1cd04a8458d3cff41a8448a02253b89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena2--Despacho/Despacho.unity using Guid(1cd04a8458d3cff41a8448a02253b89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e75ebe5c269c63583416515c2f2b15') in 0.023366 seconds
+  Import took 0.030570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.108215 seconds.
+  path: Assets/Player
+  artifactKey: Guid(2fc7811251434d14ea681bcb7ad31770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player using Guid(2fc7811251434d14ea681bcb7ad31770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798371d75c3db67aa38cace8d86e5d2f') in 0.004034 seconds
+  Import took 0.009621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.274567 seconds.
+  path: Assets/NPCs
+  artifactKey: Guid(933a1e801596fd945bcf6890fe67130e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs using Guid(933a1e801596fd945bcf6890fe67130e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413bc9882b4094e7c1be6548f55cea71') in 0.009231 seconds
+  Import took 0.015581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.320700 seconds.
+  path: Assets/Scenes/Escena1-- Hall/HallEntrada.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena1-- Hall/HallEntrada.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7337e35dbd6f87b1dd9529618bcc8c7') in 0.004252 seconds
+  Import took 0.010695 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001926 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.016 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2461 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 121.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3530.
+Total: 2.956700 ms (FindLiveObjects: 0.294700 ms CreateObjectMapping: 0.115400 ms MarkObjects: 2.529800 ms  DeleteObjects: 0.015200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 408.852351 seconds.
+  path: Assets/Scenes/Escena7--HabitacionHija/HabitacionHija.unity
+  artifactKey: Guid(0974f86ec02901145bfbfb64d2e2e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena7--HabitacionHija/HabitacionHija.unity using Guid(0974f86ec02901145bfbfb64d2e2e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38e22639819bd187e931e7981013dad') in 0.019324 seconds
+  Import took 0.024951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1871.301558 seconds.
+  path: Assets/EjemploGameManager
+  artifactKey: Guid(8719245059a167b47b2e63d22aadb83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EjemploGameManager using Guid(8719245059a167b47b2e63d22aadb83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16afd5cc4d113feafbb71afd0357533e') in 0.009431 seconds
+  Import took 0.015525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056963 seconds.
+  path: Assets/EjemploGameManager/GameManager.asset
+  artifactKey: Guid(0ac14db2fbdf35544b929d82b396a3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EjemploGameManager/GameManager.asset using Guid(0ac14db2fbdf35544b929d82b396a3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Fixing reference to the runtime script in scene file!
+
+ -> (artifact id: '62ac7fb4445b2d99d9b8328f7ec71748') in 0.005162 seconds
+  Import took 0.010301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.691229 seconds.
+  path: Assets/EjemploGameManager/GameManagerSO.cs
+  artifactKey: Guid(f2d1fdc52e8f5ae499d27f1e4f0f78a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EjemploGameManager/GameManagerSO.cs using Guid(f2d1fdc52e8f5ae499d27f1e4f0f78a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e69e73137df06e421219cce83fc0f9') in 0.002936 seconds
+  Import took 0.008220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.408859 seconds.
+  path: Assets/EjemploGameManager/Player.cs
+  artifactKey: Guid(d5dac3c5394c51d4d95f1e56b0ba07ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EjemploGameManager/Player.cs using Guid(d5dac3c5394c51d4d95f1e56b0ba07ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cbfb2e8655a1d85980bcdfceb63e6d') in 0.003013 seconds
+  Import took 0.008435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316462 seconds.
+  path: Assets/EjemploGameManager/Puerta.cs
+  artifactKey: Guid(3c860d733c75f334b8cf4f684cf5a92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EjemploGameManager/Puerta.cs using Guid(3c860d733c75f334b8cf4f684cf5a92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32bcb7531bf57d25e2af0056f66d8b6') in 0.007261 seconds
+  Import took 0.012050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019749 seconds.
+  path: Assets/EjemploGameManager/Puerta.cs
+  artifactKey: Guid(3c860d733c75f334b8cf4f684cf5a92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EjemploGameManager/Puerta.cs using Guid(3c860d733c75f334b8cf4f684cf5a92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32bcb7531bf57d25e2af0056f66d8b6') in 0.002726 seconds
+  Import took 0.007199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.427217 seconds.
+  path: Assets/EjemploGameManager/GameManagerSO2.cs
+  artifactKey: Guid(f2d1fdc52e8f5ae499d27f1e4f0f78a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EjemploGameManager/GameManagerSO2.cs using Guid(f2d1fdc52e8f5ae499d27f1e4f0f78a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c647019ca2eec98e4c01148b237c30fe') in 0.011324 seconds
+  Import took 0.016084 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001850 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.030 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2463 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.9 MB.
+System memory in use after: 121.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3535.
+Total: 2.961700 ms (FindLiveObjects: 0.303200 ms CreateObjectMapping: 0.117600 ms MarkObjects: 2.516400 ms  DeleteObjects: 0.023500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001840 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2463 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.9 MB.
+System memory in use after: 121.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3538.
+Total: 2.808100 ms (FindLiveObjects: 0.328700 ms CreateObjectMapping: 0.128300 ms MarkObjects: 2.333600 ms  DeleteObjects: 0.016600 ms)
+
