@@ -4,21 +4,35 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    [SerializeField] int doorIndex;
-    [SerializeField] Transform puntoOrigen;
-    [SerializeField] Vector3 puntoDestino;
+    [SerializeField] GameManagerSO gM;
 
-  
-    public int GetNewLvlIndex()
+    [Header("Escena actual")]
+    [SerializeField] int indexDoor;
+    [SerializeField] Transform spawnPoint;
+    [SerializeField] Vector3 spawnRotation;
+
+
+    [Header("Escena objetivo")]
+    [SerializeField] int indexNextScene;
+    [SerializeField] int indexNextDoor;
+
+
+    public int GetIndexDoor()
     {
-        return doorIndex;
+        return indexDoor;
     }
-    public Transform GetPuntoSpawn()
+    public Transform GetSpawnPoint()
     {
-        return puntoOrigen;
+        return spawnPoint;
     }
-    public Vector3 GetPuntoDestino()
+    public Vector3 GetSpawnRotation()
     {
-        return puntoDestino;
+        return spawnRotation;
+    }
+
+    private void OnTriggerEnter(Collider collision)
+    {
+        gM.CargarEscena(indexNextScene, indexNextDoor);
     }
 }
+    

@@ -16,16 +16,18 @@ public class GameManagerSO : ScriptableObject
 
     private void SceneManager_sceneLoaded(Scene escenaCargada, LoadSceneMode sceneMode)
     {
+        Debug.Log("Nueva escena!");
         if (indexPuertaObjetivo == -1) return;
 
-        Puerta[] puertas = FindObjectsOfType<Puerta>();
-        Player player = FindObjectOfType<Player>();
-        foreach (Puerta puerta in puertas)
+        Door[] doors = FindObjectsOfType<Door>();
+        GameObject player = GameObject.FindWithTag("Player");
+        foreach (Door door in doors)
         {
-            if(puerta.GetIndexPuerta() == indexPuertaObjetivo)
+            if(door.GetIndexDoor() == indexPuertaObjetivo)
             {
-                player.transform.position = puerta.GetSpawnPoint().position;
-                player.transform.eulerAngles = puerta.GetSpawnRotation();
+                Debug.Log("Vete a la puerta " + door.GetIndexDoor() + " de la escena " + escenaCargada.name);
+                player.transform.position = door.GetSpawnPoint().position;
+                player.transform.eulerAngles = door.GetSpawnRotation();
                 break;
             }
         }

@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 6329187542430785767}
   - component: {fileID: 6329187542430785766}
   - component: {fileID: 6329187542430785785}
-  - component: {fileID: -1642250039354880624}
+  - component: {fileID: 2353792591723403106}
   m_Layer: 6
   m_Name: Door_
   m_TagString: Door
@@ -127,7 +127,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-1642250039354880624
+--- !u!114 &2353792591723403106
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,6 +139,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0d9ac27d31de004ca3a58b12d32a0fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorIndex: 0
-  puntoOrigen: {fileID: 0}
-  puntoDestino: {x: 0, y: 0, z: 0}
+  gM: {fileID: 11400000, guid: 0ac14db2fbdf35544b929d82b396a3c3, type: 2}
+  indexDoor: 0
+  spawnPoint: {fileID: 0}
+  spawnRotation: {x: 0, y: 0, z: 0}
+  indexNextScene: 0
+  indexNextDoor: 0

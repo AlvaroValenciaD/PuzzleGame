@@ -5,21 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class PlayerREJA: MonoBehaviour
 {
-    [SerializeField] GameManagerSO gM;
     [Header("Movimiento")] 
     CharacterController chController;
     [SerializeField] float moveSpeed;[SerializeField] float gravityScale;
     Vector3 moveDirection; Vector3 movementY;
     float h, v;
-    [Header("Puertas")]
-    [SerializeField] LayerMask whatIsDoor;[SerializeField] float radiusDoor;[SerializeField] GameObject doorPoint;
+    //[Header("Puertas")]
+    //[SerializeField] LayerMask whatIsDoor;[SerializeField] float radiusDoor;[SerializeField] GameObject doorPoint;
 
 
     void Start()
     {
         chController = GetComponent<CharacterController>();
         //Cursor.lockState = CursorLockMode.Locked;
-        //transform.position = gM.CargarPosicionOrigen();
     }
 
 
@@ -41,23 +39,9 @@ public class PlayerREJA: MonoBehaviour
         chController.Move(movementY * Time.deltaTime);
     }
 
-
-    void SavePosition()
-    {
-
-    }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Door"))
-        {
-            Door door = other.GetComponent<Door>();
-            //gM.GuardarPosicionOrigen(door.GetPuntoSpawn());
-            SceneManager.LoadScene(door.GetNewLvlIndex());
-        }
-    }
     private void OnDrawGizmos()
     {
-        Gizmos.DrawSphere(doorPoint.transform.position, radiusDoor);
+        //Gizmos.DrawSphere(doorPoint.transform.position, radiusDoor);
     }
 
 }
