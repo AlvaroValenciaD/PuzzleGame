@@ -105,7 +105,6 @@ public class CajaMala : MonoBehaviour
 
     public void CargarEscena()
     {
-        int indexPuertaObjetivo = 4;
         SceneManager.LoadScene(1);
     }
 
