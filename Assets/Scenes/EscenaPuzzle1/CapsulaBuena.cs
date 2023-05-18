@@ -4,10 +4,25 @@ using UnityEngine;
 
 public class CapsulaBuena : MonoBehaviour
 {
-    float peso = 1f;
+    [SerializeField] float peso;
+    Camera cam;
+
+    private void Start()
+    {
+        cam = Camera.main;
+    }
 
     public float GetPeso()
     {
         return peso;
     }
+
+    private void OnMouseDrag()
+    {
+        Vector3 posicionRatonJuego = cam.ScreenToWorldPoint(Input.mousePosition);
+        posicionRatonJuego.z = -0.5f;
+        transform.position = posicionRatonJuego;
+    }
+
+    
 }

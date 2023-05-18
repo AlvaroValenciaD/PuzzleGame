@@ -1,36 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Balanza : MonoBehaviour
 {
     [SerializeField] CanvasManager canvas;
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    float total = 0;
+    List<GameObject> listadoCapsulas = new List<GameObject>();
 
-    void Pesar()
+    public void Pesar()
     {
-
+        total = 0;
+        for (int i = 0; i < listadoCapsulas.Count; i++)
+        {
+            total += listadoCapsulas[i].GetComponent<CapsulaBuena>().GetPeso();
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("CapsulaBuena"))
-        {
-        other.GetComponent<CapsulaBuena>().GetPeso();
-        }
-        else if (other.CompareTag("CapsulaMala"))
-        {
-            other.GetComponent<CapsulaMala>().GetPeso();
-        }
+        listadoCapsulas.Add(other.gameObject);
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        listadoCapsulas.Remove(other.gameObject);
+    }
+
+    public float GetTotal()
+    {
+        return total;
     }
 
 }
