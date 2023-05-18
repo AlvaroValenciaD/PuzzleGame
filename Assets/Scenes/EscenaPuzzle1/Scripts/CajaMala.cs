@@ -1,15 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CajaMala : MonoBehaviour
 {
+    [SerializeField] GameManagerSO gM;
     [SerializeField] GameObject Pill;
     [SerializeField] Transform spawnPoint1, spawnPoint2, spawnPoint3, spawnPoint4, spawnPoint5;
     [SerializeField] CanvasManager canvas;
-    [SerializeField] GameObject pildoras;
+    [SerializeField] GameObject pildoras, acertaste, resolverText;
     [SerializeField] Material mat;
     bool functionOnce = false;
+    bool resolver = false;
 
     public void GeneratePill()
     { 
@@ -80,8 +85,29 @@ public class CajaMala : MonoBehaviour
     {
         if (!functionOnce)
         {
-        pildoras.SetActive(true);
-        functionOnce = true;
+            canvas.SetNumCapsulas(0);
+            pildoras.SetActive(true);
+            functionOnce = true;
+        }
+        if (resolver)
+        {
+            Debug.Log("Me tocaste");
+            resolver = false;
+            acertaste.SetActive(true);
+            resolverText.SetActive(false);
         }
     }
+
+    public void Resolver() 
+    {
+        resolver = true; functionOnce = true; 
+    }
+
+    public void CargarEscena()
+    {
+        int indexPuertaObjetivo = 4;
+        SceneManager.LoadScene(1);
+    }
+
+
 }

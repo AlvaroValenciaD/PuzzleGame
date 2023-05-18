@@ -3,21 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CajaBuena : MonoBehaviour
 {
     [SerializeField] GameObject Pill;
     [SerializeField] Transform spawnPoint1, spawnPoint2, spawnPoint3, spawnPoint4, spawnPoint5;
     [SerializeField] CanvasManager canvas;
-    [SerializeField] GameObject pildoras;
+    [SerializeField] GameObject pildoras, fallaste, resolverText;
     [SerializeField] Material mat;
     bool functionOnce = false;
+    bool resolver = false;
 
     public void GeneratePill()
     {
-        
+
         float numPildoras = canvas.GetNumCapsulas();
-        if (numPildoras == 0f) {numPildoras = 1f;}
+        if (numPildoras == 0f) { numPildoras = 1f; }
         if (numPildoras == 1f)
         {
             GameObject PillCopy1 = Instantiate(Pill, spawnPoint1.position, Quaternion.identity);
@@ -83,5 +85,17 @@ public class CajaBuena : MonoBehaviour
             pildoras.SetActive(true);
             functionOnce = true;
         }
+        if (resolver)
+        {
+            Debug.Log("Me tocaste");
+            resolver = false;
+            fallaste.SetActive(true);
+            resolverText.SetActive(false);
+        }
     }
+
+    public void Resolver() { resolver = true; functionOnce = true; }
+
+    public void Restart() { SceneManager.LoadScene(6);}
+
 }
