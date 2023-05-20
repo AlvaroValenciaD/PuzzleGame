@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerREJA: MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class PlayerREJA: MonoBehaviour
     //[Header("Puertas")]
     //[SerializeField] LayerMask whatIsDoor;[SerializeField] float radiusDoor;[SerializeField] GameObject doorPoint;
 
+    
 
     void Start()
     {
@@ -36,6 +38,11 @@ public class PlayerREJA: MonoBehaviour
         }
         
         Gravity();
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            
+        }
 
     }
 

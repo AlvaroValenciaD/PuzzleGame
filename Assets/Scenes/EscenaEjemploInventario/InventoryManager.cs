@@ -30,10 +30,12 @@ public class InventoryManager : MonoBehaviour
         foreach (var item in Items)
         {
             GameObject obj = Instantiate(InventoryItem, ItemContent);
-            //var itemName = obj.transform.Find("Item/ItemName").GetComponent<Text>();
-            //var itemIcon = obj.transform.Find("Item/ItemIcon").GetComponent<Image>();
+            //var itemName = obj.transform.Find("item/itemName").GetComponent<Text>();
+            //var itemIcon = obj.transform.Find("item/itemIcon").GetComponent<Image>();
+            //var itemDescription = obj.transform.Find("item/itemDescription").GetComponent<Text>();
             //itemName.text = item.itemName;
             //itemIcon.sprite = item.icon;
+            //itemDescription.text = item.Description;
         } //Tras esto hay que ir al "boton" del inventario y añadir el "InventoryManager" y activar el método "ListItem".
         //En el Inventorymanager, localizar el ItemContent y el InventoryItem.
         //Posiblemente haya un error dentro del Método ListItem y haya que arreglarlo.(Borrar Item de ambos var)

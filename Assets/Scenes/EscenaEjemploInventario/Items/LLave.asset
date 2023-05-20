@@ -15,4 +15,4 @@ MonoBehaviour:
   id: 1
   itemName: Llave
   description: Sirve para abrir puertas
-  icon: {fileID: 0}
+  icon: {fileID: -7745487213090324763, guid: c18da1c79043fb0498fa3aa265090503, type: 3}
