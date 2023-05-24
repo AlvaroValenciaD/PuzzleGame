@@ -39,7 +39,7 @@ public class PlayerREJA: MonoBehaviour
         
         Gravity();
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.I))
         {
             
         }

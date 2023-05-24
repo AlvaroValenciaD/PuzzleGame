@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EscenaPuzzle1/PuzzlePildoras.unity
     guid: 3d1bdb2887e1eb34988c6e50bed87bce
+  - enabled: 1
+    path: Assets/Scenes/EscenaPuzzle2/PuzzleDeslizar.unity
+    guid: 5383f9de7e968a741ad5522a749dfe4e
   m_configObjects: {}
