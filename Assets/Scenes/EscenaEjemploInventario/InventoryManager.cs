@@ -22,10 +22,22 @@ public class InventoryManager : MonoBehaviour
 
     public void ListItem()
     {
+        foreach (Transform item in ItemContent)
+        {
+            Destroy(item.gameObject);//Para "limpiar" el inventario, ya que cada vez que se abría, se duplicaba el objeto.
+            //Aún no puesto en práctica.
+        }
         foreach (var item in Items)
         {
             GameObject obj = Instantiate(InventoryItem, ItemContent);
-            //var itemName = obj.transform.Find("Item/ItemName").GetComponent<Text>();
-        }
+            //var itemName = obj.transform.Find("item/itemName").GetComponent<Text>();
+            //var itemIcon = obj.transform.Find("item/itemIcon").GetComponent<Image>();
+            //var itemDescription = obj.transform.Find("item/itemDescription").GetComponent<Text>();
+            //itemName.text = item.itemName;
+            //itemIcon.sprite = item.icon;
+            //itemDescription.text = item.Description;
+        } //Tras esto hay que ir al "boton" del inventario y añadir el "InventoryManager" y activar el método "ListItem".
+        //En el Inventorymanager, localizar el ItemContent y el InventoryItem.
+        //Posiblemente haya un error dentro del Método ListItem y haya que arreglarlo.(Borrar Item de ambos var)
     }
 }
