@@ -1,0 +1,574 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 21996.1; Version 2009; 64bit' Language: 'es' Physical Memory: 32609 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Carmona/Dropbox/RPM/Proyecto_Final/GrupoREJA
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61062
+Successfully changed project path to: C:/Users/Carmona/Dropbox/RPM/Proyecto_Final/GrupoREJA
+C:/Users/Carmona/Dropbox/RPM/Proyecto_Final/GrupoREJA
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 30.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Carmona/Dropbox/RPM/Proyecto_Final/GrupoREJA/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f03)
+    Vendor:   
+    VRAM:     12087 MB
+    Driver:   31.0.15.2230
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000848 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.589 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000743 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.556 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2632 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.0 MB.
+System memory in use after: 123.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3075.
+Total: 1.832000 ms (FindLiveObjects: 0.380600 ms CreateObjectMapping: 0.098800 ms MarkObjects: 1.288400 ms  DeleteObjects: 0.063400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Escena7--HabitacionHija/HabitacionHija.unity
+  artifactKey: Guid(0974f86ec02901145bfbfb64d2e2e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena7--HabitacionHija/HabitacionHija.unity using Guid(0974f86ec02901145bfbfb64d2e2e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a401aa740f98b47953bf064ca872f81') in 0.008081 seconds
+  Import took 0.010711 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000643 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.513 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.7 MB.
+System memory in use after: 114.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3078.
+Total: 1.669400 ms (FindLiveObjects: 0.284700 ms CreateObjectMapping: 0.061500 ms MarkObjects: 1.306700 ms  DeleteObjects: 0.015000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1102.369881 seconds.
+  path: Assets/Muebles/Habitacion_Hope/Shtora.fbx
+  artifactKey: Guid(f346ff859141515449c4b44fe0651103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Muebles/Habitacion_Hope/Shtora.fbx using Guid(f346ff859141515449c4b44fe0651103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dcd2b9aa50314480e7433a2958c83ef') in 0.538289 seconds
+  Import took 0.543223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Scenes/Escena6--Pasillo/Materials/Wall.mat
+  artifactKey: Guid(1ffe572daacf85141a120f6f6495fa68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena6--Pasillo/Materials/Wall.mat using Guid(1ffe572daacf85141a120f6f6495fa68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943748b1f8e42ffc49976e6212e14b7f') in 0.015255 seconds
+  Import took 0.020060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Scenes/Escena7--HabitacionHija/Materials/Wall.mat
+  artifactKey: Guid(cdecfcf08591ddd47ac920f50ab8c8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena7--HabitacionHija/Materials/Wall.mat using Guid(cdecfcf08591ddd47ac920f50ab8c8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8147d2c49dd298a312f9585a89360f42') in 0.005681 seconds
+  Import took 0.010084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Scenes/Escena3--Comedor/Materials/Wall.mat
+  artifactKey: Guid(4a49680c565ad5c4081c2ab7e2ff2fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena3--Comedor/Materials/Wall.mat using Guid(4a49680c565ad5c4081c2ab7e2ff2fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bab1bfc35988f4dce9f677d088f4600') in 0.006818 seconds
+  Import took 0.010334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Scenes/Escena2--Despacho/Materials/Wall.mat
+  artifactKey: Guid(fe8f48e84fec1cb4aaaad0176a189d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena2--Despacho/Materials/Wall.mat using Guid(fe8f48e84fec1cb4aaaad0176a189d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a314c09dcadcf8f317dc7f5b84c93a3') in 0.006295 seconds
+  Import took 0.010920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Muebles/Habitacion_Hope/Gothic Room Divider.fbx
+  artifactKey: Guid(fc9fa7efb49f12c4cbcbfd67966ad1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Muebles/Habitacion_Hope/Gothic Room Divider.fbx using Guid(fc9fa7efb49f12c4cbcbfd67966ad1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fe3e15b2b81d61d37de5290728030a') in 0.032291 seconds
+  Import took 0.036302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
+  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af910905f8ce0a9abb8ac9806eb5c096') in 0.236091 seconds
+  Import took 0.240291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Scenes/EscenaPuzzle2/Materiales/Rojo.mat
+  artifactKey: Guid(4a8876ab9acf84c4990def01de4b790f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EscenaPuzzle2/Materiales/Rojo.mat using Guid(4a8876ab9acf84c4990def01de4b790f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ea65aa2c4fe527bc5c7caf6521f386') in 0.006139 seconds
+  Import took 0.010109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
+  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a4a69db17e44aa35e4e5de6c568ed4') in 0.024788 seconds
+  Import took 0.029481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat
+  artifactKey: Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat using Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77058ef65a3f331c059df351a41363af') in 0.234684 seconds
+  Import took 0.238171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Visual/ProyectMaterials/Skybox_Mat.mat
+  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/ProyectMaterials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cb8a9770ea5661530fd5a299e8358e') in 0.057302 seconds
+  Import took 0.060646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Muebles/Habitacion_Hope/Lamp for scetchfab.fbx
+  artifactKey: Guid(de47ec844a641304998e88b5aa2b2fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Muebles/Habitacion_Hope/Lamp for scetchfab.fbx using Guid(de47ec844a641304998e88b5aa2b2fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79952d032f29461caefa8ebb0669020') in 0.437484 seconds
+  Import took 0.441088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c83da0647d4d890aff1e39c08d76a8d') in 0.007384 seconds
+  Import took 0.011159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Scenes/Escena1-- Hall/Materials/Wall.mat
+  artifactKey: Guid(a5546dbbef7dc15438661e64a4d0ab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena1-- Hall/Materials/Wall.mat using Guid(a5546dbbef7dc15438661e64a4d0ab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3882399c100b49d15e3ba65e68bb45') in 0.007439 seconds
+  Import took 0.013270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Scenes/Escena7--HabitacionHija/Materials/Window.mat
+  artifactKey: Guid(b8c10953726517544b6f682b19c7ac65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena7--HabitacionHija/Materials/Window.mat using Guid(b8c10953726517544b6f682b19c7ac65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de34f7d697b28272f8c55aadcf5fc8d') in 0.005738 seconds
+  Import took 0.009547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Player/FBX/Banana Detective.fbx
+  artifactKey: Guid(3597ecf1f8cd1ff4e81c0af5252344e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/FBX/Banana Detective.fbx using Guid(3597ecf1f8cd1ff4e81c0af5252344e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825296e7e2ca161ee4c98e37d2426071') in 0.213606 seconds
+  Import took 0.217599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.639665 seconds.
+  path: Assets/Scenes/Escena1-- Hall/Materials/pared.mat
+  artifactKey: Guid(9f1d42253e068e542838bc5b1fe3438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena1-- Hall/Materials/pared.mat using Guid(9f1d42253e068e542838bc5b1fe3438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e75e8d64beff00478cb0e42090a24a') in 0.006470 seconds
+  Import took 0.011312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9dfb13c6e852a41a9cf3c02ae8520cc') in 0.007942 seconds
+  Import took 0.012859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Muebles/Hall/Azerilo/Free Rug Pack/Material/Material3.mat
+  artifactKey: Guid(bec706126ee43674b8032c91f2ae69d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Muebles/Hall/Azerilo/Free Rug Pack/Material/Material3.mat using Guid(bec706126ee43674b8032c91f2ae69d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2be32910eb6b9fc0907744384fe3d0c') in 0.020014 seconds
+  Import took 0.024126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Muebles/JJ_InteriorDoorPack_V1/Materials/Frames/mat_intDoor_metalFrame_black.mat
+  artifactKey: Guid(3b0d2ceccf5d1804fb726d141e80fb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Muebles/JJ_InteriorDoorPack_V1/Materials/Frames/mat_intDoor_metalFrame_black.mat using Guid(3b0d2ceccf5d1804fb726d141e80fb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870e2c95ea4a9235f7e60a4745866bc6') in 0.233749 seconds
+  Import took 0.238387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Scenes/Escena6--Pasillo/Materials/Door.mat
+  artifactKey: Guid(70ad372869c1b994fa21938d84bf7ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena6--Pasillo/Materials/Door.mat using Guid(70ad372869c1b994fa21938d84bf7ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8511bd1d86103e78b25b50648bf25b') in 0.007144 seconds
+  Import took 0.011202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Scenes/EscenaPuzzle1/Materials/Box1.mat
+  artifactKey: Guid(f348f96f0fcab4c45a3e62a17b92c089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EscenaPuzzle1/Materials/Box1.mat using Guid(f348f96f0fcab4c45a3e62a17b92c089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d81c1cd435531fdfb580e4f6e5443df') in 0.008324 seconds
+  Import took 0.012956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/Scenes/Escena6--Pasillo/Materials/Floor.mat
+  artifactKey: Guid(03d1e79936d0ba849aa6b1a1aee03237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena6--Pasillo/Materials/Floor.mat using Guid(03d1e79936d0ba849aa6b1a1aee03237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fd1eeed0cad1ae186f8e81f26815b3') in 0.007467 seconds
+  Import took 0.011659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Muebles/Habitacion_Hope/Low Poly Bed Room Furniture PBR/Assets/Materials/Floor.mat
+  artifactKey: Guid(35de4dba03bd5244bba54e3f4275c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Muebles/Habitacion_Hope/Low Poly Bed Room Furniture PBR/Assets/Materials/Floor.mat using Guid(35de4dba03bd5244bba54e3f4275c2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdf5e25a4a501a359f9483d6575692e') in 0.020262 seconds
+  Import took 0.024318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf
+  artifactKey: Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf using Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0752ca6e3a4a7d4c55131d3cd486a75') in 0.026882 seconds
+  Import took 0.031847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Visual/Fonts/CloisterBlack.ttf
+  artifactKey: Guid(37862e468cf90de4aab9d97f7b486f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Fonts/CloisterBlack.ttf using Guid(37862e468cf90de4aab9d97f7b486f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0bebcebecd07d3e33fcbbad73430c3d') in 0.008386 seconds
+  Import took 0.012364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Scenes/Escena1-- Hall/Materials/Door.mat
+  artifactKey: Guid(0fb05a09294872142a127874cd3af1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena1-- Hall/Materials/Door.mat using Guid(0fb05a09294872142a127874cd3af1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a38ac519a5614efb3d12321890b3823') in 0.010899 seconds
+  Import took 0.015389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Scenes/EscenaPuzzle1/Materials/Box2.mat
+  artifactKey: Guid(edb509dcb97c0a44580cb50d2bee612c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EscenaPuzzle1/Materials/Box2.mat using Guid(edb509dcb97c0a44580cb50d2bee612c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06e354d057724512e37fa5715e3aa02') in 0.016205 seconds
+  Import took 0.020864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf
+  artifactKey: Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf using Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccb78902477a207c9c3c621fcab7d14') in 0.013090 seconds
+  Import took 0.017408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Scenes/EscenaPuzzle1/Materials/Box3.mat
+  artifactKey: Guid(da4eab795e01a524aa2e904303d24e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EscenaPuzzle1/Materials/Box3.mat using Guid(da4eab795e01a524aa2e904303d24e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e921e0482c5f3f594255422b214811') in 0.007242 seconds
+  Import took 0.011323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Scenes/Escena6--Pasillo/Escenario/scale1.dae
+  artifactKey: Guid(dfb5d3dbd9967b44a9a5d3da2726e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena6--Pasillo/Escenario/scale1.dae using Guid(dfb5d3dbd9967b44a9a5d3da2726e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5d157bcf669f693b391556cdd2d125') in 0.029685 seconds
+  Import took 0.035763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Scenes/EscenaPuzzle1/Materials/Box5.mat
+  artifactKey: Guid(639da1fee1ead6b4cba5b265bae9f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EscenaPuzzle1/Materials/Box5.mat using Guid(639da1fee1ead6b4cba5b265bae9f711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741e1465da47c53de3158380827cc0d4') in 0.007181 seconds
+  Import took 0.011277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Scenes/Escena3--Comedor/Materials/Floor.mat
+  artifactKey: Guid(b72de5079d947414b8f29e389c643c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena3--Comedor/Materials/Floor.mat using Guid(b72de5079d947414b8f29e389c643c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc184279c84e01c89c2d68acb88b6f2') in 0.010747 seconds
+  Import took 0.014716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Muebles/Hall/Azerilo/Demo Floor/Material/Floor.mat
+  artifactKey: Guid(78627c1533e8f394eae102891ce33869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Muebles/Hall/Azerilo/Demo Floor/Material/Floor.mat using Guid(78627c1533e8f394eae102891ce33869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae9ca62f943b1f7cb01758dc6581d3d') in 0.009248 seconds
+  Import took 0.013709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf
+  artifactKey: Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf using Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b589153dd37326a9986aa12092a8df') in 0.009018 seconds
+  Import took 0.012879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ed225e74c7184a1e47c1d62d65567e') in 0.008262 seconds
+  Import took 0.012604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Muebles/Hall/GDT-Wall-Clock/GDT-Clock.mat
+  artifactKey: Guid(0067e0698baa70a45bac06df71061689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Muebles/Hall/GDT-Wall-Clock/GDT-Clock.mat using Guid(0067e0698baa70a45bac06df71061689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23676e94784a42874ce26d92ebf3f6f3') in 0.008210 seconds
+  Import took 0.012172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Muebles/Habitacion_Hope/Low Poly Bed Room Furniture PBR/Assets/Materials/Furniture.mat
+  artifactKey: Guid(a1ca3c55afc7226479a8e49dc7c6bc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Muebles/Habitacion_Hope/Low Poly Bed Room Furniture PBR/Assets/Materials/Furniture.mat using Guid(a1ca3c55afc7226479a8e49dc7c6bc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e2a2a74c0b37f3d89f1e6a7656f7ed') in 0.208773 seconds
+  Import took 0.213030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Scenes/EscenaPuzzle1/Materials/fondo.mat
+  artifactKey: Guid(49d8840eb7700814690599b252a3f2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EscenaPuzzle1/Materials/fondo.mat using Guid(49d8840eb7700814690599b252a3f2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5f9c68c5c5e462a926c8625046f643') in 0.006732 seconds
+  Import took 0.010449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Scenes/EscenaPuzzle1/Materials/Box4.mat
+  artifactKey: Guid(341fbe118a43ca845b418b81d542f3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EscenaPuzzle1/Materials/Box4.mat using Guid(341fbe118a43ca845b418b81d542f3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ad63f5d9b5fdf12fbc756cb1e5abdd') in 0.006207 seconds
+  Import took 0.010406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Muebles/JJ_InteriorDoorPack_V1/Materials/Frames/mat_intDoor_metalFrame_white.mat
+  artifactKey: Guid(15ee18a418e72d1418815052445c3c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Muebles/JJ_InteriorDoorPack_V1/Materials/Frames/mat_intDoor_metalFrame_white.mat using Guid(15ee18a418e72d1418815052445c3c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a839a51ad71fc694883e049e2cc3877d') in 0.022471 seconds
+  Import took 0.027523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Scenes/Escena1-- Hall/Escenario/scale1.dae
+  artifactKey: Guid(5b8ca5b741d3ea34a9aa0aaaf07d7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena1-- Hall/Escenario/scale1.dae using Guid(5b8ca5b741d3ea34a9aa0aaaf07d7c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fb19436cb5cb58791ed66d04ae885a') in 0.015157 seconds
+  Import took 0.019162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Muebles/JJ_InteriorDoorPack_V1/Materials/mat_door4_white_weathered.mat
+  artifactKey: Guid(da291d329d3ac0b418c0541226e1d270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Muebles/JJ_InteriorDoorPack_V1/Materials/mat_door4_white_weathered.mat using Guid(da291d329d3ac0b418c0541226e1d270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406fef2cfdfcfe310ffa0cfa6dee3ce9') in 0.019949 seconds
+  Import took 0.023998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Scenes/Escena2--Despacho/Materials/Floor.mat
+  artifactKey: Guid(04a166434647af14abe188448825d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena2--Despacho/Materials/Floor.mat using Guid(04a166434647af14abe188448825d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e201408aef0c199c353729a23e4a4628') in 0.006539 seconds
+  Import took 0.010566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Scenes/Escena7--HabitacionHija/Materials/Floor.mat
+  artifactKey: Guid(f9fe4fa9d6b752b489a7441b9b054c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena7--HabitacionHija/Materials/Floor.mat using Guid(f9fe4fa9d6b752b489a7441b9b054c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87c75e9f965e05f4bbca5ccd55ef2bc') in 0.006470 seconds
+  Import took 0.011199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Scenes/Escena2--Despacho/Materials/Door.mat
+  artifactKey: Guid(ce49520e0dc600a40aadbd90a3e913e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena2--Despacho/Materials/Door.mat using Guid(ce49520e0dc600a40aadbd90a3e913e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8673f151aa0adc97f5b243c2db0a55c') in 0.006843 seconds
+  Import took 0.011004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Muebles/JJ_InteriorDoorPack_V1/Materials/Knobs/mat_doorKnob_brass.mat
+  artifactKey: Guid(f5ff2560e39df5b4db5703fd2fcabd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Muebles/JJ_InteriorDoorPack_V1/Materials/Knobs/mat_doorKnob_brass.mat using Guid(f5ff2560e39df5b4db5703fd2fcabd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441d597b8786c173e0053d92925d6c2a') in 0.007626 seconds
+  Import took 0.012506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Muebles/JJ_InteriorDoorPack_V1/Materials/mat_door4_white.mat
+  artifactKey: Guid(9685193c346b23f4ab5edb5d066f7215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Muebles/JJ_InteriorDoorPack_V1/Materials/mat_door4_white.mat using Guid(9685193c346b23f4ab5edb5d066f7215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07ebee9b96504eaf4950ba55279b1d8') in 0.020044 seconds
+  Import took 0.024981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Player/FBX/conan.FBX
+  artifactKey: Guid(b41fb1f80e9348543ad55fb733a76087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/FBX/conan.FBX using Guid(b41fb1f80e9348543ad55fb733a76087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe9fc19913f3c2c96c6253abe32b254') in 0.109487 seconds
+  Import took 0.113390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf
+  artifactKey: Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf using Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa51c03d2f47cb41a420b89027f16eee') in 0.006940 seconds
+  Import took 0.011592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Scenes/Escena1-- Hall/Materials/Floor.mat
+  artifactKey: Guid(f6a8a8fc3a975954889d4c5ba0188a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena1-- Hall/Materials/Floor.mat using Guid(f6a8a8fc3a975954889d4c5ba0188a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2396e9498d79e148b304469050602de0') in 0.006230 seconds
+  Import took 0.010024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/Perfect DOS VGA 437.ttf
+  artifactKey: Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/Perfect DOS VGA 437.ttf using Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07a939de2c969bb78042075301cd8a6') in 0.008273 seconds
+  Import took 0.012776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf
+  artifactKey: Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf using Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a870079916806653db194d367e5936') in 0.010588 seconds
+  Import took 0.014500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Scenes/EscenaPuzzle2/Materiales/Fondo.mat
+  artifactKey: Guid(38bb93876a2b7734f8d96c5c0113c51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EscenaPuzzle2/Materiales/Fondo.mat using Guid(38bb93876a2b7734f8d96c5c0113c51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54934f3a26b327ac6b1e800f05ac1c78') in 0.006993 seconds
+  Import took 0.011678 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002420 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.550 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.8 MB.
+System memory in use after: 121.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3166.
+Total: 4.095700 ms (FindLiveObjects: 0.706200 ms CreateObjectMapping: 0.143000 ms MarkObjects: 3.119200 ms  DeleteObjects: 0.123300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001314 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.885 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.8 MB.
+System memory in use after: 121.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3169.
+Total: 3.114600 ms (FindLiveObjects: 0.721600 ms CreateObjectMapping: 0.147800 ms MarkObjects: 2.217500 ms  DeleteObjects: 0.021400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

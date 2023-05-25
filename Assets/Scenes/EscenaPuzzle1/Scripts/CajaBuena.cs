@@ -9,7 +9,7 @@ public class CajaBuena : MonoBehaviour
 {
     [SerializeField] GameObject Pill;
     [SerializeField] Transform spawnPoint1, spawnPoint2, spawnPoint3, spawnPoint4, spawnPoint5;
-    [SerializeField] CanvasManager canvas;
+    [SerializeField] CanvasManagerPuzzleCocina canvas;
     [SerializeField] GameObject pildoras, fallaste, resolverText;
     [SerializeField] Material mat;
     bool functionOnce = false;

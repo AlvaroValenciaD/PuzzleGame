@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class CanvasManager : MonoBehaviour
+public class CanvasManagerPuzzleCocina : MonoBehaviour
 {
     [SerializeField] Text textoNumero1, textoNumero2, textoNumero3, textoNumero4, textoNumero5;
     [SerializeField] TextMeshProUGUI peso;
