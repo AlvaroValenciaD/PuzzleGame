@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb994cea70181394ebcf12925efbf7b5, type: 3}
-  m_Name: Llave
+  m_Name: LLave
   m_EditorClassIdentifier: 
   id: 1
   itemName: Llave
   icon: {fileID: -7745487213090324763, guid: c18da1c79043fb0498fa3aa265090503, type: 3}
+  description: Sirve para abrir puerta.
+  fondoDescription: {fileID: 0}

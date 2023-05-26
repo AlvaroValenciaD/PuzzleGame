@@ -15,7 +15,8 @@ public class PlayerREJA: MonoBehaviour
     //[Header("Puertas")]
     //[SerializeField] LayerMask whatIsDoor;[SerializeField] float radiusDoor;[SerializeField] GameObject doorPoint;
 
-    
+    //[SerializeField] GameObject inventoryManager;
+    [SerializeField] GameObject inventario;
 
     void Start()
     {
@@ -41,7 +42,8 @@ public class PlayerREJA: MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.I))
         {
-            
+            inventario.SetActive(true);
+            //inventoryManager.GetComponent<InventoryManager>().ListItem();
         }
 
     }

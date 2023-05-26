@@ -10,7 +10,7 @@ public class CajaMala : MonoBehaviour
     [SerializeField] GameManagerSO gM;
     [SerializeField] GameObject Pill;
     [SerializeField] Transform spawnPoint1, spawnPoint2, spawnPoint3, spawnPoint4, spawnPoint5;
-    [SerializeField] CanvasManager canvas;
+    [SerializeField] CanvasManagerPuzzleCocina canvas;
     [SerializeField] GameObject pildoras, acertaste, resolverText;
     [SerializeField] Material mat;
     bool functionOnce = false;
