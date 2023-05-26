@@ -28,11 +28,12 @@ public class InventoryManager : MonoBehaviour
         Image iconSlot = itemsSlots[Items.Count - 1].transform.GetChild(0).GetComponentInChildren<Image>();
         iconSlot.sprite = Items[Items.Count - 1].icon;
 
-        for (int i = 0; i < itemsSlots.Length; i++)//Probar itemsSlots.Length + 1
+        for (int i = 0; i < itemsSlots.Length; i++)
         {
             if (itemsSlots[Items.Count].activeSelf == false)
             {
                 itemsSlots[Items.Count].SetActive(true);
+                
             }
             
         }
