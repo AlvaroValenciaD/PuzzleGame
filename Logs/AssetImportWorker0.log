@@ -222,3 +222,4 @@ Received Import Request.
 Start importing Assets/Scenes/EscenaEjemploInventario/Items/Llave.asset using Guid(37fb310ce71e13e49ac7641f1cda2ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26932548d9dbd6914834e793262e237') in 0.008488 seconds
   Import took 0.017885 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
