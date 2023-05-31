@@ -13,6 +13,13 @@ public class PlayerREJA: MonoBehaviour
     //[Header("Puertas")]
     //[SerializeField] LayerMask whatIsDoor;[SerializeField] float radiusDoor;[SerializeField] GameObject doorPoint;
 
+    [Header("Overlap")]
+    Transform puntoInt;
+    float radioInt;
+    LayerMask interaccionable;
+
+    [SerializeField] GameObject eIcon;
+
 
     void Start()
     {
@@ -43,6 +50,15 @@ public class PlayerREJA: MonoBehaviour
     private void OnDrawGizmos()
     {
         //Gizmos.DrawSphere(doorPoint.transform.position, radiusDoor);
+    }
+
+    void Interactuar()
+    {
+        Collider[] interactuableCol = Physics.OverlapSphere(puntoInt.position, radioInt, interaccionable);
+        if (interactuableCol.Length > 0)
+        {
+            
+        }
     }
 
 }
