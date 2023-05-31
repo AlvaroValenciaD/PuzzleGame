@@ -1000,3 +1000,32 @@ System memory in use after: 133.9 MB.
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3592.
 Total: 5.066400 ms (FindLiveObjects: 0.503400 ms CreateObjectMapping: 0.160600 ms MarkObjects: 2.119100 ms  DeleteObjects: 2.281700 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 832.632951 seconds.
+  path: Assets/Scenes/Escena1-- Hall/HallEntrada.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena1-- Hall/HallEntrada.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bad0c72f1bc64936aa98f87861910d') in 0.022606 seconds
+  Import took 0.030957 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2868 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.6 MB.
+System memory in use after: 133.9 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3595.
+Total: 4.863300 ms (FindLiveObjects: 0.298900 ms CreateObjectMapping: 0.135200 ms MarkObjects: 2.224400 ms  DeleteObjects: 2.203800 ms)
+
