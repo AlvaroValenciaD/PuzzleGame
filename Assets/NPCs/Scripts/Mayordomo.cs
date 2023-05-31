@@ -53,14 +53,14 @@ public class Mayordomo : MonoBehaviour
         hablando = false;
     }
 
-    void  SiguienteFrase()
+    void CompletarFraseActual()
     {
         StopAllCoroutines();
         dialogText.text = frases[indiceFraseActual];
         hablando = false;
     }
 
-    void CompletarFraseActual()
+    void SiguienteFrase()
     {
         indiceFraseActual++;
         if (indiceFraseActual >= frases.Length) //Si me paso...
