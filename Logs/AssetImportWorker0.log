@@ -1,0 +1,147 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'es' Physical Memory: 16306 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Ruth/ProyectoProgramación/GrupoREJA
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51928
+Successfully changed project path to: D:/Ruth/ProyectoProgramación/GrupoREJA
+D:/Ruth/ProyectoProgramación/GrupoREJA
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 50.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Ruth/ProyectoProgramación/GrupoREJA/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K620 (ID=0x13bb)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   30.0.14.7168
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002694 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 50.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.497 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001460 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 51.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.079 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2632 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.4 MB.
+System memory in use after: 123.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3076.
+Total: 3.397900 ms (FindLiveObjects: 0.481900 ms CreateObjectMapping: 0.166400 ms MarkObjects: 2.661600 ms  DeleteObjects: 0.086300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/EscenaEjemploInventario/Item.cs
+  artifactKey: Guid(fb994cea70181394ebcf12925efbf7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EscenaEjemploInventario/Item.cs using Guid(fb994cea70181394ebcf12925efbf7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518777168e863e993fbf22ac4667bc1a') in 0.118293 seconds
+  Import took 0.123395 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2508 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.1 MB.
+System memory in use after: 115.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3079.
+Total: 2.701600 ms (FindLiveObjects: 0.373500 ms CreateObjectMapping: 0.133600 ms MarkObjects: 2.166100 ms  DeleteObjects: 0.027100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 899.964069 seconds.
+  path: Assets/Scenes/EscenaEjemploInventario/Canvas.prefab
+  artifactKey: Guid(87505faf17ebb5246a00813aa02e8955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EscenaEjemploInventario/Canvas.prefab using Guid(87505faf17ebb5246a00813aa02e8955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cb56830d6e152316c8d47c19d467f1') in 0.120318 seconds
+  Import took 0.126995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 277.452462 seconds.
+  path: Assets/Scenes/EscenaEjemploInventario/InventoryManager.prefab
+  artifactKey: Guid(ec1cc74996661404d9b746c48cb619ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EscenaEjemploInventario/InventoryManager.prefab using Guid(ec1cc74996661404d9b746c48cb619ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9221ef15fac2f974623b24b1384716a3') in 0.013617 seconds
+  Import took 0.020075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002003 seconds.
+  path: Assets/Scenes/EscenaEjemploInventario/InventoryManager.prefab
+  artifactKey: Guid(ec1cc74996661404d9b746c48cb619ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EscenaEjemploInventario/InventoryManager.prefab using Guid(ec1cc74996661404d9b746c48cb619ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9221ef15fac2f974623b24b1384716a3') in 0.003637 seconds
+  Import took 0.008636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.219179 seconds.
+  path: Assets/Scenes/Escena2--Despacho/Despacho.unity
+  artifactKey: Guid(1cd04a8458d3cff41a8448a02253b89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena2--Despacho/Despacho.unity using Guid(1cd04a8458d3cff41a8448a02253b89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccdec4e87031386847409e74e532253') in 0.007893 seconds
+  Import took 0.012605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 212.411510 seconds.
+  path: Assets/Scenes/Escena3--Comedor/Comedor.unity
+  artifactKey: Guid(25c99a712baded549a03712809fe2dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena3--Comedor/Comedor.unity using Guid(25c99a712baded549a03712809fe2dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221614cde9e86a7af236593f1874f9ff') in 0.007412 seconds
+  Import took 0.012391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 271.112893 seconds.
+  path: Assets/Scenes/Escena6--Pasillo/Pasillo.unity
+  artifactKey: Guid(5bb47b473540e5f4797c08c82e89df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena6--Pasillo/Pasillo.unity using Guid(5bb47b473540e5f4797c08c82e89df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a939d5f6eff12a7dc3b9c7a23ef7ad') in 0.008344 seconds
+  Import took 0.013376 seconds .
+
