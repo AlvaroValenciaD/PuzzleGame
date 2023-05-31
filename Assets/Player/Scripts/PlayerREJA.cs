@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class PlayerREJA: MonoBehaviour
 {
@@ -38,6 +39,11 @@ public class PlayerREJA: MonoBehaviour
         chController.Move(moveDirection.normalized * moveSpeed * Time.deltaTime);
         Gravity();
 
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Interactuar();
+        }
+
     }
 
     void Gravity()
@@ -55,10 +61,39 @@ public class PlayerREJA: MonoBehaviour
     void Interactuar()
     {
         Collider[] interactuableCol = Physics.OverlapSphere(puntoInt.position, radioInt, interaccionable);
-        if (interactuableCol.Length > 0)
+        
+        if (interactuableCol.Length > 0) //¿Estoy tocando algo?
         {
-            
+            //Sí
+            //¿Qué estoy tocando?
+            eIcon.SetActive(true);
+            if (interactuableCol[0].CompareTag("Richard"))
+            {
+                interactuableCol[0].GetComponent<Richard>().InteractuarRichard();
+            }
+            else if (interactuableCol[0].CompareTag("Phillip"))
+            {
+                interactuableCol[0].GetComponent<Phillip>().InteractuarPhillip();
+            }
+            else if (interactuableCol[0].CompareTag("Mayordomo"))
+            {
+                interactuableCol[0].GetComponent<Mayordomo>().InteractuarMayordomo();
+            }
+            else if (interactuableCol[0].CompareTag("Cocinero"))
+            {
+                interactuableCol[0].GetComponent<Cocinero>().InteractuarCocinero();
+            }
+            else if (interactuableCol[0].CompareTag("Ama de Llaves"))
+            {
+                interactuableCol[0].GetComponent<Ama_Llaves>().InteractuarAmaLlaves();
+            }
+        }
+        else
+        {
+            //No
+            eIcon.SetActive(false);
         }
     }
+
 
 }

@@ -40,6 +40,7 @@ public class InventoryManager : MonoBehaviour
     }
 
     
+    //SE ENSEÑA LA DESCRIPCIÓN DEL OBJETO
     public void OnClickItemButton(int id)
     {
         //GameObject obj = Instantiate(InventoryItem, ItemContent);
