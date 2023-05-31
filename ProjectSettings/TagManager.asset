@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Door
   - Inventario
+  - Richard
+  - Miller
+  - Phillip
+  - Cocinero
+  - Mayordomo
+  - Ama de Llaves
   layers:
   - Default
   - TransparentFX
