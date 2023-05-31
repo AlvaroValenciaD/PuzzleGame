@@ -37,6 +37,10 @@ public class PlayerREJA: MonoBehaviour
         // Multiplicamos *(-45) gardos para que tenga un movimiento coherente con el input de teclas
         moveDirection = Quaternion.Euler(0, -45, 0) * new Vector3(h, 0, v);
         chController.Move(moveDirection.normalized * moveSpeed * Time.deltaTime);
+        if (h != 0 || v != 0)
+        {
+            RotateLookDirection();
+        }
         Gravity();
 
         if (Input.GetKeyDown(KeyCode.E))
@@ -93,6 +97,12 @@ public class PlayerREJA: MonoBehaviour
             //No
             eIcon.SetActive(false);
         }
+    }
+
+    void RotateLookDirection()
+    {
+        float ang = Mathf.Atan2(moveDirection.x, moveDirection.z) * Mathf.Rad2Deg;
+        transform.eulerAngles = new Vector3(0, ang, 0);
     }
 
 

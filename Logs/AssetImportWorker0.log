@@ -15,11 +15,11 @@ D:/Rocio/MODULOS/RPM/GrupoREJA
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58373
+58508
 Successfully changed project path to: D:/Rocio/MODULOS/RPM/GrupoREJA
 D:/Rocio/MODULOS/RPM/GrupoREJA
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 72.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 56.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -36,44 +36,137 @@ Initialize mono
 Mono path[0] = 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003227 seconds.
+Registered in 0.003209 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 57.07 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.735 seconds
+- Completed reload, in  2.754 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001495 seconds.
+Registered in 0.001543 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 59.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.314 seconds
+- Completed reload, in  1.147 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2998 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.7 MB.
-System memory in use after: 141.9 MB.
+Unloading 2999 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.2 MB.
+System memory in use after: 142.3 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3448.
-Total: 2.817300 ms (FindLiveObjects: 0.300600 ms CreateObjectMapping: 0.145300 ms MarkObjects: 2.248100 ms  DeleteObjects: 0.121900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3449.
+Total: 3.155500 ms (FindLiveObjects: 0.307300 ms CreateObjectMapping: 0.148300 ms MarkObjects: 2.576600 ms  DeleteObjects: 0.122100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Escena7--HabitacionHija/HabitacionHija.unity
-  artifactKey: Guid(0974f86ec02901145bfbfb64d2e2e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Escena7--HabitacionHija/HabitacionHija.unity using Guid(0974f86ec02901145bfbfb64d2e2e9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25382cb96f1e60fe44f57e9f5e734f5f') in 0.021221 seconds
-  Import took 0.027673 seconds .
+  path: Assets/Scenes/Escena1-- Hall/HallEntrada.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena1-- Hall/HallEntrada.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f1265ef13cd09a29d114cba0d54c24') in 0.019331 seconds
+  Import took 0.024871 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001824 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.158 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2853 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.6 MB.
+System memory in use after: 131.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3452.
+Total: 2.563800 ms (FindLiveObjects: 0.304000 ms CreateObjectMapping: 0.159100 ms MarkObjects: 2.005300 ms  DeleteObjects: 0.093700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 621.772801 seconds.
+  path: Assets/Player/Player.prefab
+  artifactKey: Guid(72cd15c81bfed1a4186955bf2ca1aac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Player.prefab using Guid(72cd15c81bfed1a4186955bf2ca1aac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd79b4945b30ef3c914d20070d5bba8') in 0.242412 seconds
+  Import took 0.248898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.141834 seconds.
+  path: Assets/Scenes/Escena6--Pasillo/Pasillo/LightingData.asset
+  artifactKey: Guid(971c23cbd24b6c54b9138eef7ac053f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena6--Pasillo/Pasillo/LightingData.asset using Guid(971c23cbd24b6c54b9138eef7ac053f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af1825d3fe4a23b2f1cc456881c64a7') in 0.010967 seconds
+  Import took 0.017932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Scenes/Escena6--Pasillo/Pasillo/Lightmap-1_comp_light.exr
+  artifactKey: Guid(1cc7ffe94fa38414c97d48eeaacb5c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena6--Pasillo/Pasillo/Lightmap-1_comp_light.exr using Guid(1cc7ffe94fa38414c97d48eeaacb5c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d43ef68f4f3226d55b331095d18b197') in 0.032768 seconds
+  Import took 0.039526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Scenes/Escena6--Pasillo/Pasillo/ReflectionProbe-0.exr
+  artifactKey: Guid(788d2881e16ffe148bdd543883f1839f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena6--Pasillo/Pasillo/ReflectionProbe-0.exr using Guid(788d2881e16ffe148bdd543883f1839f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fd157599d0aaf5ac2e509b9b4db76b') in 0.030577 seconds
+  Import took 0.037361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Scenes/Escena6--Pasillo/Pasillo/Lightmap-3_comp_light.exr
+  artifactKey: Guid(e402d47d3417abf4598d95ac06b164b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena6--Pasillo/Pasillo/Lightmap-3_comp_light.exr using Guid(e402d47d3417abf4598d95ac06b164b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b2fae8304eb4f6557bc5a275f5b5fb') in 0.014030 seconds
+  Import took 0.019494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Scenes/Escena6--Pasillo/Pasillo/Lightmap-0_comp_light.exr
+  artifactKey: Guid(5e5d2ff9f876b6f4cbd502a844773e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena6--Pasillo/Pasillo/Lightmap-0_comp_light.exr using Guid(5e5d2ff9f876b6f4cbd502a844773e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19192f9e7e489412c53b269b3bae3f09') in 0.014522 seconds
+  Import took 0.019672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Scenes/Escena6--Pasillo/Pasillo/Lightmap-2_comp_light.exr
+  artifactKey: Guid(7704e3e7d0328e140a5dffa16ffad7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena6--Pasillo/Pasillo/Lightmap-2_comp_light.exr using Guid(7704e3e7d0328e140a5dffa16ffad7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d869ece6f8ab6f46923e1d42901c20f') in 0.011386 seconds
+  Import took 0.016519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.089668 seconds.
+  path: Assets/Scenes/Escena6--Pasillo/Pasillo/LightingPasillo.asset
+  artifactKey: Guid(971c23cbd24b6c54b9138eef7ac053f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena6--Pasillo/Pasillo/LightingPasillo.asset using Guid(971c23cbd24b6c54b9138eef7ac053f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465127ec5de89c427974b9f85cbced4a') in 0.008006 seconds
+  Import took 0.013853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004042 seconds.
+  path: Assets/Scenes/Escena6--Pasillo/Pasillo/LightingPasillo.asset
+  artifactKey: Guid(971c23cbd24b6c54b9138eef7ac053f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Escena6--Pasillo/Pasillo/LightingPasillo.asset using Guid(971c23cbd24b6c54b9138eef7ac053f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465127ec5de89c427974b9f85cbced4a') in 0.002593 seconds
+  Import took 0.007891 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
