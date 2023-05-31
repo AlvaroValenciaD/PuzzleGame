@@ -6,7 +6,7 @@ using TMPro;
 
 public class Balanza : MonoBehaviour
 {
-    [SerializeField] CanvasManager canvas;
+    [SerializeField] CanvasManagerPuzzleCocina canvas;
 
     float total = 0;
     List<GameObject> listadoCapsulas = new List<GameObject>();

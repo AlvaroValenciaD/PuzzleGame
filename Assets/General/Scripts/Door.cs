@@ -6,6 +6,10 @@ public class Door : MonoBehaviour
 {
     [SerializeField] GameManagerSO gM;
 
+    [Header("Estado")]
+    [SerializeField] bool abierta;
+    [SerializeField] GameObject texto;
+
     [Header("Escena actual")]
     [SerializeField] int indexDoor;
     [SerializeField] Transform spawnPoint;
@@ -32,7 +36,19 @@ public class Door : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        gM.CargarEscena(indexNextScene, indexNextDoor);
+        if (abierta)
+        {
+            gM.CargarEscena(indexNextScene, indexNextDoor);
+        }
+        else
+        {
+            texto.SetActive(true);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        texto.SetActive(false);
     }
 }
     
