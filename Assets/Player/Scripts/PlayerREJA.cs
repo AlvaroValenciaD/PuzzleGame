@@ -15,9 +15,9 @@ public class PlayerREJA: MonoBehaviour
     //[SerializeField] LayerMask whatIsDoor;[SerializeField] float radiusDoor;[SerializeField] GameObject doorPoint;
 
     [Header("Overlap")]
-    Transform puntoInt;
-    float radioInt;
-    LayerMask interaccionable;
+    [SerializeField] Transform puntoInt;
+    [SerializeField] float radioInt;
+    [SerializeField] LayerMask interaccionable;
 
     [SerializeField] GameObject eIcon;
 
@@ -41,7 +41,7 @@ public class PlayerREJA: MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Interactuar();
+            InteractuarNPC();
         }
 
     }
@@ -58,7 +58,7 @@ public class PlayerREJA: MonoBehaviour
         //Gizmos.DrawSphere(doorPoint.transform.position, radiusDoor);
     }
 
-    void Interactuar()
+    void InteractuarNPC()
     {
         Collider[] interactuableCol = Physics.OverlapSphere(puntoInt.position, radioInt, interaccionable);
         
@@ -83,7 +83,7 @@ public class PlayerREJA: MonoBehaviour
             {
                 interactuableCol[0].GetComponent<Cocinero>().InteractuarCocinero();
             }
-            else if (interactuableCol[0].CompareTag("Ama de Llaves"))
+            else if (interactuableCol[0].CompareTag("AmaDeLlaves"))
             {
                 interactuableCol[0].GetComponent<Ama_Llaves>().InteractuarAmaLlaves();
             }

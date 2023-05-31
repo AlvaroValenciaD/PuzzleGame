@@ -25,6 +25,7 @@ public class Richard : MonoBehaviour
 
     public void InteractuarRichard()
     {
+        Debug.Log("Hola!");
         dialogBox.SetActive(true);
         dialogText.text = "";  //Para que no se superponga un texto con otro
         if (hablando)
@@ -54,10 +55,14 @@ public class Richard : MonoBehaviour
         hablando = false;
     }
 
-    void SiguienteFrase()
+    void CompletarFraseActual()
     {
-        StopAllCoroutines();
+        StopAllCoroutines(); //1. Cállate
+
+        //2. Completa la frase actual 
         dialogText.text = frases[indiceFraseActual];
+
+        //Como completé la fase actual (2.), ya no estoy hablando.
         hablando = false;
 
         //Para continuar con la siguiente frase hay que parar su reporducción; todas las corrutinas = STOP.
@@ -65,13 +70,13 @@ public class Richard : MonoBehaviour
         //Tenemos que dejar de hablar para dar tiempo a que se reproduzan entre frase y frase.
     }
 
-    void CompletarFraseActual()
+    void SiguienteFrase()
     {
-        indiceFraseActual++;
-        if (indiceFraseActual >= frases.Length) //Si me paso...
+        indiceFraseActual++; //Avanzo a la siguiente
+        if (indiceFraseActual >= frases.Length) //Y Si me pasé (ya no me quedan)...
         {
-            dialogBox.SetActive(false);
-            indiceFraseActual = -1;
+            dialogBox.SetActive(false); //Desactivo el diálogo
+            indiceFraseActual = -1; //Reseteo el contador de frases.
 
         }
         else
