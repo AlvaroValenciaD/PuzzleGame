@@ -96,6 +96,6 @@ public class CajaBuena : MonoBehaviour
 
     public void Resolver() { resolver = true; functionOnce = true; }
 
-    public void Restart() { SceneManager.LoadScene(6);}
+    public void Restart() { SceneManager.LoadScene(9);}
 
 }

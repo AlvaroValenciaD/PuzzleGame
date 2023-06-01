@@ -105,7 +105,7 @@ public class CajaMala : MonoBehaviour
 
     public void CargarEscena()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(5);
     }
 
 
