@@ -108,10 +108,7 @@ public class PlayerREJA: MonoBehaviour
             {
                 interactuableCol[0].GetComponent<Ama_Llaves>().InteractuarAmaLlaves();
             }
-            else if (interactuableCol[0].CompareTag("Objeto"))
-            {
-
-            }
+            //else if (interactuableCol[0].CompareTag("Objeto")){}
             else if (interactuableCol[0].CompareTag("Puzzle"))
             {
                 interactuableCol[0].GetComponent<PuzzleTrigger>().ActivePuzzle();
@@ -130,6 +127,12 @@ public class PlayerREJA: MonoBehaviour
     {
         float ang = Mathf.Atan2(moveDirection.x, moveDirection.z) * Mathf.Rad2Deg;
         transform.eulerAngles = new Vector3(0, ang, 0);
+    }
+
+    public void ChangeCamOff()
+    {
+        moveSpeed = 15;
+        camaraFija = false;
     }
 
 

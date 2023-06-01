@@ -6,6 +6,6 @@ public class CamChange : MonoBehaviour
 {
     [SerializeField] GameObject cameraPoint;
     [SerializeField] GameObject backButton;
-    public void CameraChangeOn() { cameraPoint.SetActive(true); }
-    public void CameraChangeOff() { cameraPoint.SetActive(false); }
+    public void CameraChangeOn() { cameraPoint.SetActive(true); backButton.SetActive(true); }
+    public void CameraChangeOff() { cameraPoint.SetActive(false); backButton.SetActive(false); }
 }
