@@ -11,8 +11,6 @@ public class PlayerREJA: MonoBehaviour
     [SerializeField] float moveSpeed;[SerializeField] float gravityScale;
     Vector3 moveDirection; Vector3 movementY;
     float h, v;
-    //[Header("Puertas")]
-    //[SerializeField] LayerMask whatIsDoor;[SerializeField] float radiusDoor;[SerializeField] GameObject doorPoint;
 
     [Header("Overlap")]
     [SerializeField] Transform puntoInt;
@@ -30,11 +28,11 @@ public class PlayerREJA: MonoBehaviour
 
 
 
-
     void Start()
     {
         chController = GetComponent<CharacterController>();
         //Cursor.lockState = CursorLockMode.Locked;
+       
     }
 
 
@@ -45,16 +43,29 @@ public class PlayerREJA: MonoBehaviour
 
         // Multiplicamos *(-45) gardos para que tenga un movimiento coherente con el input de teclas
         moveDirection = Quaternion.Euler(0, -45, 0) * new Vector3(h, 0, v);
+        
+        //Movimiento del jugador
         chController.Move(moveDirection.normalized * moveSpeed * Time.deltaTime);
         if (h != 0 || v != 0)
         {
             RotateLookDirection();
         }
+        
         Gravity();
 
-        if (Input.GetKeyDown(KeyCode.E))
+        Collider[] eColl = Physics.OverlapSphere(puntoInt.position, radioInt, interaccionable);
+        if (eColl.Length > 0)
         {
-            Interactuar();
+            eIcon.SetActive(true);
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Interactuar();
+            }
+        }
+        else
+        {
+            //No
+            eIcon.SetActive(false);
         }
 
     }
@@ -68,18 +79,14 @@ public class PlayerREJA: MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        //Gizmos.DrawSphere(doorPoint.transform.position, radiusDoor);
+        Gizmos.DrawSphere(puntoInt.position, radioInt);
     }
 
     void Interactuar()
     {
         Collider[] interactuableCol = Physics.OverlapSphere(puntoInt.position, radioInt, interaccionable);
-        
-        if (interactuableCol.Length > 0) //¿Estoy tocando algo?
+        if (interactuableCol.Length>0)
         {
-            //Sí
-            //¿Qué estoy tocando?
-            eIcon.SetActive(true);
             if (interactuableCol[0].CompareTag("Richard"))
             {
                 interactuableCol[0].GetComponent<Richard>().InteractuarRichard();
@@ -104,11 +111,10 @@ public class PlayerREJA: MonoBehaviour
             {
 
             }
-        }
-        else
-        {
-            //No
-            eIcon.SetActive(false);
+            else if (interactuableCol[0].CompareTag("Puzzle"))
+            {
+                interactuableCol[0].GetComponent<PuzzleTrigger>().ActivePuzzle();
+            }
         }
     }
 

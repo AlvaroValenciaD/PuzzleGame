@@ -12,6 +12,7 @@ TagManager:
   - Cocinero
   - Mayordomo
   - AmaDeLlaves
+  - Puzzle
   layers:
   - Default
   - TransparentFX
