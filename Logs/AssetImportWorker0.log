@@ -2665,3 +2665,13 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.244 seconds
 Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2854 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.5 MB.
+System memory in use after: 134.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3911.
+Total: 4.729600 ms (FindLiveObjects: 0.585300 ms CreateObjectMapping: 0.323300 ms MarkObjects: 3.713400 ms  DeleteObjects: 0.105700 ms)
+
