@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6558201099362544941}
   - component: {fileID: 6558201099362544942}
   - component: {fileID: 6558201099362544940}
+  - component: {fileID: 919178971802645496}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -97,9 +98,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da3b11ce4e90fb4098987d6d7fddd88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gM: {fileID: 11400000, guid: 0ac14db2fbdf35544b929d82b396a3c3, type: 2}
   moveSpeed: 15
   gravityScale: -9.8
+  puntoInt: {fileID: 6126214366508056586}
+  radioInt: 0.25
+  interaccionable:
+    serializedVersion: 2
+    m_Bits: 256
+  eIcon: {fileID: 0}
 --- !u!143 &6558201099362544942
 CharacterController:
   m_ObjectHideFlags: 0
@@ -134,6 +140,80 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &919178971802645496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6558201099362544943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef053f723b1b9c4aba82638e7126a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frases:
+  - Detective Morgan al habla.
+  - ...
+  - "De acuerdo. En menos de diez minutos\r\nestoy all\xED."
+  - 'Buenas noches, Sr. MacCallister. Soy
+
+    el Detective Morgan.'
+  - 'Lamento lo ocurrido esta noche.
+
+    Quisiera hacerle unas preguntas, si
+
+    no
+    le importa.'
+  - "\xBFQu\xE9 es lo que ha presenciado esta\r\nnoche?"
+  - "\xBFRecuerda algo m\xE1s que le llamara la\r\natenci\xF3n?"
+  - "De acuerdo, Sr. MacCallister. Muchas\r\ngracias por su colaboraci\xF3n, muy\r\namable."
+  - 'El lugar permanece casi intacto. Un
+
+    sitio ideal para una doncella.'
+  - "\xBFQu\xE9 pruebas tenemos?"
+  - "\xBFY esa mano?\xBFPor qu\xE9 est\xE1 as\xED?"
+  - "La mano tiene una posici\xF3n, por su\r\ndedo \xEDndice levantado,\r\ndiscriminatoria."
+  - "El tocador... \xBFHabr\xE1 algo que sirva\r\npara la investigaci\xF3n?"
+  - "Deber\xEDa volver con Phillip. Necesito\r\nrespuestas."
+  - "\xBFC\xF3mo era la relaci\xF3n entre su mujer\r\ny la familia de ella?"
+  - "Cualquier \xEDnfimo detalle es\r\nimportante en estos casos."
+  - 'Ya sabe:
+
+    venganza, cuentas pendientes...'
+  - "\xBFCu\xE1ndo fue la \xFAltima vez que se\r\nreunieron?"
+  - "De nuevo, le agradezco su\r\ncolaboraci\xF3n, Sr. MacCallister."
+  - 'Buenas noches. Detective Morgan.
+
+    Necesito hacerle algunas preguntas.'
+  - "\xBFPodr\xEDa decirme d\xF3nde estuvo entre la\r\nhora de la cena y dos horas
+    antes del\r\nasesinato de Hope?"
+  - "\xBFVi\xF3 o escuch\xF3 algo fuera de lo\r\nnormal?"
+  - "\xBFAlgo o alguien?"
+  - "\xBFPor qu\xE9 esa ambig\xFCedad?"
+  - "\xBFQui\xE9nes andaban despiertos, adem\xE1s\r\nde usted?"
+  - "Perfecto. Gracias por su\r\ncolaboraci\xF3n."
+  - "Todo est\xE1 muy revuelto. Necesito\r\nbuscar pistas."
+  - "\xBFQu\xE9 es esto?"
+  - 'Con que la familia Astor tiene un
+
+    secreto oculto...'
+  - "\xA1Oh, espera! A\xFAn hay m\xE1s. Un...\r\n\xBFc\xF3digo?"
+  - 'Resulta un poco inquietante que
+
+    tuvieran que escribirse a escondidas.'
+  - "Un secreto oculto, tensi\xF3n entre la\r\nfamilia sin que Phillip est\xE9\r\ninvolucrado..."
+  - "Hope parec\xEDa muy risue\xF1a y bastante\r\nprecavida."
+  - "\xBFEn qu\xE9 lugar podr\xEDa esconder algo de\r valor y que no incurriera sospechas?"
+  - "\xBFCu\xE1l era su lugar favorito?"
+  - "Podr\xEDa ir a hablar con Phillip."
+  - "Buenas noches, Sr. Phillip. \xBFHope era\r\nbuena con los deportes?"
+  - Se ve que era bastante inteligente.
+  - Haremos justicia. Se lo prometo.
+  - "Aqu\xED seguro que encontramos algo."
+  - "Aqu\xED est\xE1 la chicha..."
+  dialogBox: {fileID: 4330235910264961063, guid: 76e5a1d0d271d3f4e8b5b46c892da3c0, type: 3}
+  dialogText: {fileID: 0}
 --- !u!1 &7184266335206195873
 GameObject:
   m_ObjectHideFlags: 0

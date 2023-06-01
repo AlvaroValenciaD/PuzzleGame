@@ -22,6 +22,15 @@ public class PlayerREJA: MonoBehaviour
     [SerializeField] GameObject eIcon;
 
 
+    [Header("Sistema Vital")]
+    [SerializeField] float vidas;
+    //¿Qué me quita vida?
+    //¿Cuánto me quita?
+    //Si me quedo sin vidas, ¿qué pasa?  --> Me traslado  --> ¿A dónde?
+
+
+
+
     void Start()
     {
         chController = GetComponent<CharacterController>();
@@ -45,7 +54,7 @@ public class PlayerREJA: MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            InteractuarNPC();
+            Interactuar();
         }
 
     }
@@ -62,7 +71,7 @@ public class PlayerREJA: MonoBehaviour
         //Gizmos.DrawSphere(doorPoint.transform.position, radiusDoor);
     }
 
-    void InteractuarNPC()
+    void Interactuar()
     {
         Collider[] interactuableCol = Physics.OverlapSphere(puntoInt.position, radioInt, interaccionable);
         
@@ -90,6 +99,10 @@ public class PlayerREJA: MonoBehaviour
             else if (interactuableCol[0].CompareTag("AmaDeLlaves"))
             {
                 interactuableCol[0].GetComponent<Ama_Llaves>().InteractuarAmaLlaves();
+            }
+            else if (interactuableCol[0].CompareTag("Objeto"))
+            {
+
             }
         }
         else
