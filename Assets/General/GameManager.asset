@@ -13,3 +13,14 @@ MonoBehaviour:
   m_Name: GameManager
   m_EditorClassIdentifier: 
   indexPuertaObjetivo: -1
+  dialogos:
+  - {fileID: 11400000, guid: 1a6b631a6c1abcb49836284bd3b950a4, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

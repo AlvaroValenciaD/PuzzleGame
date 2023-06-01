@@ -463,7 +463,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: cb56a1472eb3b5640a8f29a792e2645e, type: 3}
-    m_FontSize: 28
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2081,9 +2081,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1269358630}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c3f22c403f42e848b56c2569711595b, type: 3}
+  m_Script: {fileID: 11500000, guid: 182e17b9a62f78043b4f5686f52f18a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gM: {fileID: 11400000, guid: 0ac14db2fbdf35544b929d82b396a3c3, type: 2}
+  dialogBox: {fileID: 1177707534}
+  dialogText: {fileID: 217684209}
 --- !u!114 &1269358633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2404,6 +2407,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 919178971802645496, guid: 72cd15c81bfed1a4186955bf2ca1aac1, type: 3}
+      propertyPath: gM
+      value: 
+      objectReference: {fileID: 11400000, guid: 0ac14db2fbdf35544b929d82b396a3c3, type: 2}
     - target: {fileID: 6558201099362544913, guid: 72cd15c81bfed1a4186955bf2ca1aac1, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2446,6 +2453,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6558201099362544913, guid: 72cd15c81bfed1a4186955bf2ca1aac1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558201099362544941, guid: 72cd15c81bfed1a4186955bf2ca1aac1, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6558201099362544941, guid: 72cd15c81bfed1a4186955bf2ca1aac1, type: 3}

@@ -25,7 +25,6 @@ public class Richard : MonoBehaviour
 
     public void InteractuarRichard()
     {
-        Debug.Log("Hola!");
         dialogBox.SetActive(true);
         dialogText.text = "";  //Para que no se superponga un texto con otro
         if (hablando)

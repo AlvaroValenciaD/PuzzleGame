@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,10 @@ using UnityEngine.SceneManagement;
 public class GameManagerSO : ScriptableObject
 {
     [SerializeField] private int indexPuertaObjetivo = -1;
+    [SerializeField] public DialogoSO[] dialogos;
+    private int numeroActo;
+
+    public event Action<int> OnReproducirActo; 
 
     private void OnEnable()
     {
@@ -16,7 +21,6 @@ public class GameManagerSO : ScriptableObject
 
     private void SceneManager_sceneLoaded(Scene escenaCargada, LoadSceneMode sceneMode)
     {
-        Debug.Log("Nueva escena!");
         if (indexPuertaObjetivo == -1) return;
 
         Door[] doors = FindObjectsOfType<Door>();
@@ -34,6 +38,11 @@ public class GameManagerSO : ScriptableObject
                 break;
             }
         }
+    }
+    public void ReproducirDialogoActo(int numeroDialogo)
+    {
+        numeroActo = numeroDialogo;
+        OnReproducirActo?.Invoke(numeroDialogo);
     }
     public void CargarEscena(int indexEscena, int indexPuerta)
     {
