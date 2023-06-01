@@ -13,6 +13,7 @@ TagManager:
   - Mayordomo
   - AmaDeLlaves
   - Puzzle
+  - CamChange
   layers:
   - Default
   - TransparentFX

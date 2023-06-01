@@ -18,6 +18,7 @@ public class PlayerREJA: MonoBehaviour
     [SerializeField] LayerMask interaccionable;
 
     [SerializeField] GameObject eIcon;
+    bool camaraFija = false;
 
 
     [Header("Sistema Vital")]
@@ -54,7 +55,7 @@ public class PlayerREJA: MonoBehaviour
         Gravity();
 
         Collider[] eColl = Physics.OverlapSphere(puntoInt.position, radioInt, interaccionable);
-        if (eColl.Length > 0)
+        if (eColl.Length > 0 && !camaraFija)
         {
             eIcon.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E))
@@ -114,6 +115,13 @@ public class PlayerREJA: MonoBehaviour
             else if (interactuableCol[0].CompareTag("Puzzle"))
             {
                 interactuableCol[0].GetComponent<PuzzleTrigger>().ActivePuzzle();
+            }
+            else if (interactuableCol[0].CompareTag("CamChange"))
+            {
+                interactuableCol[0].GetComponent<CamChange>().CameraChangeOn();
+                //Cursor.lockState = CursorLockMode.None;
+                camaraFija = true;
+                moveSpeed = 0;
             }
         }
     }
