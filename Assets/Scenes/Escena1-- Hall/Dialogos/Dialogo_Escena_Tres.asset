@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 625a60d64a456f14e9f6814ff17f117b, type: 3}
+  m_Name: Dialogo_Escena_Tres
+  m_EditorClassIdentifier: 
+  numeroDeActo: 3
+  frases:
+  - "Agente Miller: \xA1Buenas noches, Detective! "
+  - "Agente Miller: Bueno...\r\nQuiz\xE1 no para todos."
+  - 'Agente Miller: Si quiere hablar
+
+    con el forense Richard Moore.'
+  - "Agente Miller: Nunca llegar\xE9 a comprender la\r\ncobard\xEDa de aquellos que
+    no tienen el\r\nm\xEDnimo reparo de aprovecharse de los\r\nm\xE1s d\xE9biles."
+  - "Agente Miller: Esa pobre criatura no se merec\xEDa tal\r\nfinal."
+  - 'Morgan: Buenas noches, Sr. MacCallister. Soy
+
+    el Detective Morgan.'
+  - 'Morgan: Lamento lo ocurrido esta noche.
+
+    Quisiera hacerle unas preguntas,
+    si
+
+    no le importa.'
+  - 'Phillip: Adelante. Estoy dispuesto a ayudar de
+
+    cualquier manera.'
+  - "Morgan: \xBFQu\xE9 es lo que ha presenciado esta\r\nnoche?"
+  - "Phillip: Estaba durmiendo pl\xE1cidamente hasta\r\nque los gritos de mi hija
+    me\r\ndespertaron."
+  - "Phillip: Corr\xED hasta su cuarto. Al llegar me\r\nextra\xF1\xF3 ver a dos trabajadores
+    del\r\nservicio golpear su puerta queriendo\r\nentrar. Los ech\xE9 a un lado
+    para darme\r\npaso."
+  - "Phillip: Cuando consigo abrir la puerta de la\r\nhabitaci\xF3n veo su cuerpo
+    totalmente\r\ninmovil tirado en el suelo.  \nvida."
+  - "Phillip: Cuando me\r\nacerqu\xE9 ya supe que no segu\xEDa con\r\nvida."
+  - "Morgan: \xBFRecuerda algo m\xE1s que le llamara la\r\natenci\xF3n?"
+  - "Phillip: No. Le he contado todo lo que s\xE9."
+  - "Morgan: De acuerdo, Sr. MacCallister. Muchas\r\ngracias por su colaboraci\xF3n,
+    muy\r\namable."
