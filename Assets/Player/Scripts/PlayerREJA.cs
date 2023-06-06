@@ -12,6 +12,9 @@ public class PlayerREJA: MonoBehaviour
     Vector3 moveDirection; Vector3 movementY;
     float h, v;
 
+    [Header("Inventario")]
+    [SerializeField] GameObject inventario;
+
     [Header("Overlap")]
     [SerializeField] Transform puntoInt;
     [SerializeField] float radioInt;
@@ -51,7 +54,12 @@ public class PlayerREJA: MonoBehaviour
         {
             RotateLookDirection();
         }
-        
+
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            inventario.SetActive(true);
+        }
+
         Gravity();
 
         Collider[] eColl = Physics.OverlapSphere(puntoInt.position, radioInt, interaccionable);

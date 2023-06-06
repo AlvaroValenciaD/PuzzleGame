@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.28085107, g: 0.36602527, b: 0.4983296, a: 1}
+  m_IndirectSpecularColor: {r: 0.28085268, g: 0.3660276, b: 0.49833208, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -751,6 +751,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6558201099362544941, guid: 72cd15c81bfed1a4186955bf2ca1aac1, type: 3}
+      propertyPath: inventario
+      value: 
+      objectReference: {fileID: 1679011308}
     - target: {fileID: 6558201099362544943, guid: 72cd15c81bfed1a4186955bf2ca1aac1, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1576,6 +1580,11 @@ GameObject:
 --- !u!1 &1679011307 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2187875986551587599, guid: 87505faf17ebb5246a00813aa02e8955, type: 3}
+  m_PrefabInstance: {fileID: 1679011296}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1679011308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2187875987891157994, guid: 87505faf17ebb5246a00813aa02e8955, type: 3}
   m_PrefabInstance: {fileID: 1679011296}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1687258581
