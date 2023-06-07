@@ -9,7 +9,6 @@ public class GameManagerSO : ScriptableObject
 {
     [SerializeField] private int indexPuertaObjetivo = -1;
     [SerializeField] public DialogoSO[] dialogos;
-    private int numeroActo;
 
     public event Action<int> OnReproducirActo; 
 
@@ -39,11 +38,15 @@ public class GameManagerSO : ScriptableObject
             }
         }
     }
+    /// <summary>
+    /// Mandamos al GameManager que reproduzca un acto concreto.
+    /// </summary>
+    /// <param name="número de acto"></param>
     public void ReproducirDialogoActo(int numeroDialogo)
     {
-        numeroActo = numeroDialogo;
         OnReproducirActo?.Invoke(numeroDialogo);
     }
+
     public void CargarEscena(int indexEscena, int indexPuerta)
     {
         indexPuertaObjetivo = indexPuerta;

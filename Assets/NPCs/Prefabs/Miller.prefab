@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1446433910618329723}
   m_Layer: 0
   m_Name: Miller
-  m_TagString: Untagged
+  m_TagString: Miller
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

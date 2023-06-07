@@ -14,6 +14,7 @@ public class PlayerREJA: MonoBehaviour
 
     [Header("Inventario")]
     [SerializeField] GameObject inventario;
+    [SerializeField] GameManagerSO gM;
 
     [Header("Overlap")]
     [SerializeField] Transform puntoInt;
@@ -22,6 +23,23 @@ public class PlayerREJA: MonoBehaviour
 
     [SerializeField] GameObject eIcon;
     bool camaraFija = false;
+
+    bool reproducirDialogoCero;
+    bool reproducidoDialogoUno;
+    bool reproducidoDialogoDos;
+    bool reproducidoDialogoTres;
+    bool reproducidoDialogoCuatro;
+    bool reproducidoDialogoCinco;
+    bool reproducidoDialogoSeis;
+    bool reproducidoDialogoSiete;
+    bool reproducirDialogoOcho;
+    bool reproducirDialogoNueve;
+    bool reproducirDialogoDiez;
+    bool reproducirDialogoOnce;
+    bool reproducirDialogoDoce;
+    bool reproducirDialogoTrece;
+    bool reproducirDialogoCatorce;
+    bool reproducirDialogoQuince;
 
 
     [Header("Sistema Vital")]
@@ -91,30 +109,41 @@ public class PlayerREJA: MonoBehaviour
         Gizmos.DrawSphere(puntoInt.position, radioInt);
     }
 
+
+
+    //QUÉ diálogos se reproducen
     void Interactuar()
     {
         Collider[] interactuableCol = Physics.OverlapSphere(puntoInt.position, radioInt, interaccionable);
         if (interactuableCol.Length>0)
         {
-            if (interactuableCol[0].CompareTag("Richard"))
+            if (interactuableCol[0].CompareTag("Miller"))
             {
-                interactuableCol[0].GetComponent<Richard>().InteractuarRichard();
+                interactuableCol[0].GetComponent<SistemaDeDialogos>().ReproducirDialogo(0);
+                gM.ReproducirDialogoActo(0);
+                reproducidoDialogoUno = true;
             }
             else if (interactuableCol[0].CompareTag("Phillip"))
             {
-                interactuableCol[0].GetComponent<Phillip>().InteractuarPhillip();
-            }
-            else if (interactuableCol[0].CompareTag("Mayordomo"))
-            {
-                interactuableCol[0].GetComponent<Mayordomo>().InteractuarMayordomo();
+                interactuableCol[0].GetComponent<SistemaDeDialogos>().ReproducirDialogo(0);
+                gM.ReproducirDialogoActo(0);
+                if (reproducirDialogoCero)
+                {
+                    gM.ReproducirDialogoActo(13);
+
+                }
+                else
+                {
+                    gM.ReproducirDialogoActo(7);
+                }
             }
             else if (interactuableCol[0].CompareTag("Cocinero"))
             {
-                interactuableCol[0].GetComponent<Cocinero>().InteractuarCocinero();
+                interactuableCol[0].GetComponent<SistemaDeDialogos>().ReproducirDialogo(0);
             }
-            else if (interactuableCol[0].CompareTag("AmaDeLlaves"))
+            else if (interactuableCol[0].CompareTag("Richard"))
             {
-                interactuableCol[0].GetComponent<Ama_Llaves>().InteractuarAmaLlaves();
+                interactuableCol[0].GetComponent<SistemaDeDialogos>().ReproducirDialogo(0);
             }
             //else if (interactuableCol[0].CompareTag("Objeto")){}
             else if (interactuableCol[0].CompareTag("Puzzle"))

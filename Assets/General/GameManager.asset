@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexPuertaObjetivo: -1
   dialogos:
-  - {fileID: 11400000, guid: 1a6b631a6c1abcb49836284bd3b950a4, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 98d01440e02eecc4fa4774f48c8461fd, type: 2}
+  - {fileID: 11400000, guid: 375e95a9d2c18714b8edd25ad36fba50, type: 2}
+  - {fileID: 11400000, guid: ee93535b4125bbd48b874ce4668d9b95, type: 2}
+  - {fileID: 11400000, guid: c1f8ae28a6601e844a27a2c526df384c, type: 2}
+  - {fileID: 11400000, guid: ebab57efa9d25414d879e446b498fad6, type: 2}
+  - {fileID: 11400000, guid: 711641acae890e24db3b06bb9d6a0f7a, type: 2}
+  - {fileID: 11400000, guid: b91cf9bf32304bf41901416551056fa1, type: 2}
+  - {fileID: 11400000, guid: a2657b7942ebeec4bb76edfa3ad38339, type: 2}
   - {fileID: 0}
   - {fileID: 0}

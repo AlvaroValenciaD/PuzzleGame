@@ -8,7 +8,7 @@ public class SistemaDeDialogos : MonoBehaviour
 {
     [SerializeField] GameManagerSO gM;
     [SerializeField] GameObject dialogBox;
-    [SerializeField] Text dialogText;
+    [SerializeField] TextMeshProUGUI dialogText;
     int indiceDialogoActual;
     int indiceFraseActual = -1;
    
