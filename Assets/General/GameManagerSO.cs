@@ -9,6 +9,9 @@ public class GameManagerSO : ScriptableObject
 {
     [SerializeField] private int indexPuertaObjetivo = -1;
     [SerializeField] public DialogoSO[] dialogos;
+    //public bool puzzle1Completado;
+    //public bool puzzle2Completado;
+    //public bool puzzle3Completado;
     private int numeroActo;
 
     public event Action<int> OnReproducirActo; 
@@ -20,7 +23,7 @@ public class GameManagerSO : ScriptableObject
     }
 
     private void SceneManager_sceneLoaded(Scene escenaCargada, LoadSceneMode sceneMode)
-    {
+    { 
         if (indexPuertaObjetivo == -1) return;
 
         Door[] doors = FindObjectsOfType<Door>();

@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using TMPro;
 
 public class PlayerREJA: MonoBehaviour
 {
@@ -23,6 +19,7 @@ public class PlayerREJA: MonoBehaviour
     [SerializeField] GameObject eIcon;
     bool camaraFija = false;
 
+    //[SerializeField] GameManagerSO gM;
 
     [Header("Sistema Vital")]
     [SerializeField] float vidas;
@@ -36,7 +33,6 @@ public class PlayerREJA: MonoBehaviour
     {
         chController = GetComponent<CharacterController>();
         //Cursor.lockState = CursorLockMode.Locked;
-       
     }
 
 
@@ -59,6 +55,9 @@ public class PlayerREJA: MonoBehaviour
         {
             inventario.SetActive(true);
         }
+
+
+
 
         Gravity();
 
