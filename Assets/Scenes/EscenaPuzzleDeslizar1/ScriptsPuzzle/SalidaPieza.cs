@@ -6,10 +6,12 @@ using UnityEngine.SceneManagement;
 public class SalidaPieza : MonoBehaviour
 {
 
+    Item llave;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        llave = GetComponent<Item>(); 
     }
 
     // Update is called once per frame
@@ -22,8 +24,9 @@ public class SalidaPieza : MonoBehaviour
     {
         if (collision.CompareTag("PiezaPrincipal"))
         {
-            //SceneManager.LoadScene();
-            //Intancia una llave en el almacenamiento.
+            SceneManager.LoadScene(2);
+            Instantiate(llave);
+            //Intancia una llave en la escena.
         }
     }
 }
