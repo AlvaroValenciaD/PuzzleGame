@@ -454,7 +454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d05c0cf87510a440b8be7b7f10aca3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzle: 0
+  puzzle: 10
 --- !u!1 &389553406
 GameObject:
   m_ObjectHideFlags: 0

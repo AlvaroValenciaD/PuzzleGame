@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class SalidaPieza : MonoBehaviour
 {
 
-    Item llave;
+    [SerializeField] Item llave;
+    bool escenaAcabada = false;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +26,11 @@ public class SalidaPieza : MonoBehaviour
         if (collision.CompareTag("PiezaPrincipal"))
         {
             SceneManager.LoadScene(2);
-            Instantiate(llave);
+            escenaAcabada = true;
+            if (escenaAcabada == true)
+            {
+                Instantiate(llave);
+            }
             //Intancia una llave en la escena.
         }
     }

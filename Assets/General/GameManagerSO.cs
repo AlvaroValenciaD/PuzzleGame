@@ -10,6 +10,8 @@ public class GameManagerSO : ScriptableObject
     [SerializeField] private int indexPuertaObjetivo = -1;
     [SerializeField] public DialogoSO[] dialogos;
 
+    public bool puzzle1Completado;
+
     public event Action<int> OnReproducirActo; 
 
     private void OnEnable()
