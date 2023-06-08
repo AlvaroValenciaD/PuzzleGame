@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18310666, g: 0.22660431, b: 0.29399365, a: 1}
+  m_IndirectSpecularColor: {r: 0.18310696, g: 0.22660494, b: 0.29399425, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1604,7 +1604,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &788925689
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1913,6 +1913,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1040340544}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &850177575
 MonoBehaviour:
@@ -2232,6 +2244,7 @@ GameObject:
   - component: {fileID: 862927354}
   - component: {fileID: 862927353}
   - component: {fileID: 862927352}
+  - component: {fileID: 862927355}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2303,9 +2316,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CajaMala, Assembly-CSharp
-        m_MethodName: CargarEscena
+      - m_Target: {fileID: 862927355}
+        m_TargetAssemblyTypeName: SceneManagement, Assembly-CSharp
+        m_MethodName: SceneMovement
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2353,6 +2366,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 862927350}
   m_CullTransparentMesh: 1
+--- !u!114 &862927355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862927350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a1146a8878030498d481e9a821c0d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: 4
 --- !u!1 &927089625
 GameObject:
   m_ObjectHideFlags: 0
@@ -3161,8 +3187,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputTipos: {fileID: 624351889}
   inputTotal: {fileID: 1669744413}
-  acertaste: {fileID: 0}
-  fallaste: {fileID: 0}
+  acertaste: {fileID: 1059972741}
+  fallaste: {fileID: 1285789650}
 --- !u!1 &1373969172
 GameObject:
   m_ObjectHideFlags: 0
@@ -3395,7 +3421,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1428893560
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3542,10 +3568,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1888948658}
-        m_TargetAssemblyTypeName: Restart, Assembly-CSharp
-        m_MethodName: ResetPuzzle
-        m_Mode: 1
+      - m_Target: {fileID: 1285789650}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3553,6 +3579,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1040340544}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1562541692
 MonoBehaviour:
@@ -4182,8 +4220,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1888948658}
-        m_TargetAssemblyTypeName: Restart, Assembly-CSharp
-        m_MethodName: ResetPuzzle
+        m_TargetAssemblyTypeName: SceneManagement, Assembly-CSharp
+        m_MethodName: SceneMovement
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4240,9 +4278,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1888948653}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5968fc5a564de034ca3906cef64cbe9c, type: 3}
+  m_Script: {fileID: 11500000, guid: 66a1146a8878030498d481e9a821c0d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scene: 10
 --- !u!1 &1942048150
 GameObject:
   m_ObjectHideFlags: 0
@@ -4337,6 +4376,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1428893559}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1942048153
 MonoBehaviour:
