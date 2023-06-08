@@ -146,7 +146,7 @@ public class PlayerREJA: MonoBehaviour
                 interactuableCol[0].GetComponent<SistemaDeDialogos>().ReproducirDialogo(0);
             }
             //else if (interactuableCol[0].CompareTag("Objeto")){}
-            else if (interactuableCol[0].CompareTag("Puzzle"))
+            else if (interactuableCol[0].CompareTag("Puzzle") && !gM.puzzle1Completado)
             {
                 interactuableCol[0].GetComponent<PuzzleTrigger>().ActivePuzzle();
             }

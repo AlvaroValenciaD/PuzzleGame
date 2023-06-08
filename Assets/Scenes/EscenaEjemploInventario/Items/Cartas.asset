@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb994cea70181394ebcf12925efbf7b5, type: 3}
+  m_Name: Cartas
+  m_EditorClassIdentifier: 
+  id: 2
+  itemName: Cartas a Hope
+  icon: {fileID: 21300000, guid: bb65ebadce444674e9ac45277e699b2f, type: 3}
+  description: "Cartas que escribi\xF3 Cassandra dirigidas a Hope"
