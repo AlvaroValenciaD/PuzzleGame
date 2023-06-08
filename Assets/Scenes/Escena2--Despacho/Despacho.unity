@@ -986,6 +986,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1884435352}
     - target: {fileID: 6558201099362544941, guid: 72cd15c81bfed1a4186955bf2ca1aac1, type: 3}
+      propertyPath: radioInt
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558201099362544941, guid: 72cd15c81bfed1a4186955bf2ca1aac1, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -1039,7 +1043,7 @@ Transform:
   - {fileID: 1878849726}
   - {fileID: 1133968295}
   - {fileID: 1388087502}
-  - {fileID: 1577915672}
+  - {fileID: 543450653241718780}
   - {fileID: 1630820730}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -1346,20 +1350,6 @@ Transform:
   m_Father: {fileID: 766711260}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &741418104
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132149521411398}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!64 &743465630
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3353,51 +3343,6 @@ Transform:
   m_Father: {fileID: 766711260}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -90}
---- !u!1 &1577915671
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1577915672}
-  - component: {fileID: 1577915673}
-  m_Layer: 0
-  m_Name: OfficeDesk
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1577915672
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1577915671}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 543450653241718780}
-  m_Father: {fileID: 645696983}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1577915673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1577915671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d05c0cf87510a440b8be7b7f10aca3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puzzle: 8
 --- !u!64 &1616842000
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4683,7 +4628,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149521411398}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.44, y: 0.09, z: -2.27}
+  m_LocalPosition: {x: 1.44, y: 0.09, z: -2.53}
   m_LocalScale: {x: 1.5825853, y: 1.5825853, z: 1.5825853}
   m_Children:
   - {fileID: 2862973770020151247}
@@ -4727,8 +4672,8 @@ Transform:
   - {fileID: 2660640660526802409}
   - {fileID: 2892267968743753223}
   - {fileID: 6614996720828334439}
-  m_Father: {fileID: 1577915672}
-  m_RootOrder: 0
+  m_Father: {fileID: 645696983}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &568357330639928249
 MeshFilter:
@@ -4957,7 +4902,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450653241718780}
-  - component: {fileID: 741418104}
+  - component: {fileID: 919132149521411399}
+  - component: {fileID: 919132149521411400}
   m_Layer: 8
   m_Name: Office Desk
   m_TagString: Puzzle
@@ -4965,6 +4911,32 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!65 &919132149521411399
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149521411398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4, y: 2.45, z: 4.5}
+  m_Center: {x: 0, y: 0.98, z: 0}
+--- !u!114 &919132149521411400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149521411398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d05c0cf87510a440b8be7b7f10aca3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzle: 8
 --- !u!23 &928911833177980745
 MeshRenderer:
   m_ObjectHideFlags: 0

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using System;
 
 public class PuzzleStarManager : MonoBehaviour
 {
@@ -10,21 +11,28 @@ public class PuzzleStarManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI inputTotal;
     [SerializeField] GameObject acertaste;
     [SerializeField] GameObject fallaste;
-    string inputTiposResolve;
-    string inputTotalResolve;
+    string inputTiposString, inputTotalString;
+
 
     private void Update()
     {
-        inputTiposResolve = inputTipos.text;
-        inputTotalResolve = inputTotal.text;
+
         
     }
     public void Resolver()
     {
-        Debug.Log(inputTiposResolve + "" + inputTotalResolve);
-        if (inputTiposResolve == "5" && inputTotalResolve == "35")
+        inputTipos.text.Trim();
+        inputTotal.text.Trim();
+        Debug.Log(">" + inputTipos.text + "< Length: " + inputTipos.text.Length);
+        Debug.Log(">" + inputTotal.text + "< Length: " + inputTotal.text.Length);
+
+        if (inputTipos.text == "5" && inputTotal.text == "35")
         {
             Debug.Log("merequetengue");
+        }
+        else
+        {
+            Debug.Log("Porque em haces esto");
         }
     }
 }
