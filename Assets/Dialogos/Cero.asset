@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 625a60d64a456f14e9f6814ff17f117b, type: 3}
-  m_Name: Dialogo_Cuatro
+  m_Name: Cero
   m_EditorClassIdentifier: 
-  numeroDeActo: 4
+  numeroDeActo: 0
   frases:
-  - "\xBF\xBF\xBF: Se nos ha ido de las manos. No\r\ndebimos cometer el error de
-    dejarla\r\ncon vida tanto tiempo."
-  - "???: No te inquietes tanto por algo tan\r\ninsignificante. Mientras que no sepan\r\nla
-    verdad, no correremos peligro.\r\n\xBFConseguiste librarte de las pruebas?"
-  - "\xBF\xBF\xBF: La mayor\xEDa."
+  - 'Morgan: Detective Morgan al habla.'
+  - 'Morgan: ...'
+  - "Morgan: De acuerdo. En menos de diez minutos\r\nestoy all\xED."
