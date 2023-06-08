@@ -14,14 +14,14 @@ public class PlayerInteractionsREJA : MonoBehaviour
         
     }
 
-    // Qué NÚMERO de diálogo se reproduce
+    // Cuando hablo solo
     void Update()
     {
-        //if(Input.GetKeyDown(KeyCode.L))
-        //{
-        //    gM.ReproducirDialogoActo(0);
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            gM.ReproducirDialogoActo(0);
 
-        //}
+        }
     }
 
 }

@@ -10,9 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 625a60d64a456f14e9f6814ff17f117b, type: 3}
-  m_Name: Dialogo_Siete
+  m_Name: Ocho
   m_EditorClassIdentifier: 
-  numeroDeActo: 7
-  frases:
-  - "Morgan: Aqu\xED seguro que encontramos algo."
-  - "Morgan: Aqu\xED est\xE1 la chicha..."
+  numeroDeActo: 0
+  frases: []
