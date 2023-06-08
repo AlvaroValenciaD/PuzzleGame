@@ -6,7 +6,7 @@ public class MovPuzzle : MonoBehaviour
 {
     Collider coll;
     Rigidbody2D rb;
-    //[SerializeField] GameManagerSO gM;
+    [SerializeField] GameManagerSO gM;
     Camera cam;
     // Start is called before the first frame update
     void Start()
@@ -39,11 +39,11 @@ public class MovPuzzle : MonoBehaviour
     }
 
     //Condición de victoria.
-    //void OnTriggerEnter2D(Collider2D other)
-    //{
-    //    if (true)
-    //    {
-    //        gM.puzzle1Completado = true;
-    //    }
-    //}
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (true)
+        {
+            gM.puzzle1Completado = true;
+        }
+    }
 }
