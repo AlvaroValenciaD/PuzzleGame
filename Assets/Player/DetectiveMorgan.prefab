@@ -253,9 +253,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3453179741572662581}
   - component: {fileID: 2641352391679795083}
-  - component: {fileID: 2641352391679795082}
   - component: {fileID: 2641352391679795085}
   - component: {fileID: 2641352391679795084}
+  - component: {fileID: 390211484}
   m_Layer: 7
   m_Name: DetectiveMorgan
   m_TagString: Player
@@ -270,7 +270,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2641352391679795087}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -26.776691}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
@@ -298,30 +298,12 @@ MonoBehaviour:
   inventario: {fileID: 4398862053911054974, guid: 9a29eaeefec9ac347990e821d164807e, type: 3}
   gM: {fileID: 11400000, guid: 0ac14db2fbdf35544b929d82b396a3c3, type: 2}
   puntoInt: {fileID: 2911174535591690743}
-  radioInt: 0.5
+  radioInt: 1
   interaccionable:
     serializedVersion: 2
     m_Bits: 256
   eIcon: {fileID: 0}
   vidas: 0
---- !u!143 &2641352391679795082
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2641352391679795087}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &2641352391679795085
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -351,6 +333,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gM: {fileID: 11400000, guid: 0ac14db2fbdf35544b929d82b396a3c3, type: 2}
+--- !u!143 &390211484
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2641352391679795087}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1
+  m_Radius: 100
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 100, z: 0}
 --- !u!1 &2911174535591690742
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,7 +375,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2911174535591690742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 180, z: 155}
+  m_LocalPosition: {x: -0, y: 180, z: 250}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3453179741572662581}
@@ -405,7 +405,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4580198654251009076}
   m_LocalRotation: {x: -0, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: 210.04105, y: 235.69992, z: 2.9705048}
+  m_LocalPosition: {x: 198, y: 227, z: -14}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 8531754178837856109}

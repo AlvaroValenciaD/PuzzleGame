@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4858627955674164739}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.25, z: 6.5}
+  m_LocalPosition: {x: 0, y: -0.495, z: 6.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6329187542430785784}
@@ -140,8 +140,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gM: {fileID: 11400000, guid: 0ac14db2fbdf35544b929d82b396a3c3, type: 2}
-  indexDoor: 0
-  spawnPoint: {fileID: 0}
-  spawnRotation: {x: 0, y: 0, z: 0}
-  indexNextScene: 0
-  indexNextDoor: 0
+  abierta: 1
+  texto: {fileID: 0}
+  indexDoor: 1
+  spawnPoint: {fileID: 1255676207253072743}
+  spawnRotation: {x: 0, y: -90, z: 0}
+  indexNextScene: 1
+  indexNextDoor: 1

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2d1fdc52e8f5ae499d27f1e4f0f78a3, type: 3}
   m_Name: GameManager
   m_EditorClassIdentifier: 
-  indexPuertaObjetivo: -1
+  indexPuertaObjetivo: 0
   dialogos:
   - {fileID: 0}
   - {fileID: 0}
@@ -30,3 +30,4 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  puzzle1Completado: 0

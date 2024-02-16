@@ -8,7 +8,7 @@ public class PlayerREJA: MonoBehaviour
 {
     [Header("Movimiento")] 
     CharacterController chController;
-    [SerializeField] float moveSpeed;[SerializeField] float gravityScale;
+    [SerializeField] int moveSpeed;[SerializeField] float gravityScale;
     Vector3 moveDirection; Vector3 movementY;
     float h, v;
 
@@ -67,7 +67,7 @@ public class PlayerREJA: MonoBehaviour
         moveDirection = Quaternion.Euler(0, -45, 0) * new Vector3(h, 0, v);
         
         //Movimiento del jugador
-        chController.Move(moveDirection.normalized * moveSpeed * Time.deltaTime);
+        
         if (h != 0 || v != 0)
         {
             RotateLookDirection();
@@ -164,6 +164,7 @@ public class PlayerREJA: MonoBehaviour
     {
         float ang = Mathf.Atan2(moveDirection.x, moveDirection.z) * Mathf.Rad2Deg;
         transform.eulerAngles = new Vector3(0, ang, 0);
+        chController.Move(moveDirection.normalized * moveSpeed * Time.deltaTime);
     }
 
     public void ChangeCamOff()
